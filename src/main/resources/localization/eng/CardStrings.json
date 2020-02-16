@@ -1,0 +1,37 @@
+{
+  "alterego_mod:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "alterego_mod:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "alterego_mod:Cooking": {
+    "NAME": "Cooking",
+    "DESCRIPTION": "Heal !M! HP. Apply 1 Poison. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Heal !M! HP. Apply 2 Poison. Exhaust."
+  },
+  "alterego_mod:Birthday": {
+    "NAME": "Birthday",
+    "DESCRIPTION": "Heal !M! HP. Draw a card. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Heal !M! HP. Draw 2 cards. Exhaust."
+  },
+  "alterego_mod:Maid": {
+    "NAME": "Maid",
+    "DESCRIPTION": "Deal !D! damage 3 times. Lose 1 Dexterity."
+  },
+  "alterego_mod:RocketPunch": {
+    "NAME": "Rocket Punch",
+    "DESCRIPTION": "Deal !D! damage. Gain !B! Block."
+  },
+  "alterego_mod:Venus": {
+    "NAME": "Venus",
+    "DESCRIPTION": "Deal !D! damage !M! times. Upgrade a card in your hand for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. Upgrade ALL cards in your hand for the rest of combat."
+  },
+  "alterego_mod:Swimsuit": {
+    "NAME": "Swimsuit",
+    "DESCRIPTION": "Deal !D! damage. Gain !M! Vulnerable and !M! Frail."
+  }
+}

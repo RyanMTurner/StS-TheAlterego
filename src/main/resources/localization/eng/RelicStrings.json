@@ -1,0 +1,9 @@
+{
+  "alterego_mod:MasochisticConstitution": {
+    "NAME": "Masochistic Constitution",
+    "FLAVOR": "Direct all of their hatred towards yourself.",
+    "DESCRIPTIONS": [
+      "Gain 1 Max HP after every battle in which you took unblocked damage."
+    ]
+  }
+}
