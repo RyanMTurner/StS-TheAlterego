@@ -33,5 +33,9 @@
   "alterego_mod:Swimsuit": {
     "NAME": "Swimsuit",
     "DESCRIPTION": "Deal !D! damage. Gain !M! Vulnerable and !M! Frail."
+  },
+  "alterego_mod:Jiggle": {
+    "NAME": "Jiggle",
+    "DESCRIPTION": "Apply !M! Weak to ALL enemies."
   }
 }
