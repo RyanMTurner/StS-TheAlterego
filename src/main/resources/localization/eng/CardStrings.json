@@ -51,5 +51,10 @@
     "NAME": "Belts",
     "DESCRIPTION": "Deal !D! damage X times. Whenever you attack this enemy, gain X Block. Exhaust.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage X times. Whenever you attack this enemy, gain 2X Block. Exhaust."
+  },
+  "alterego_mod:PresenceConcealment": {
+    "NAME": "Presence Concealment",
+    "DESCRIPTION": "Block is not removed at the start of your next X turns.",
+    "UPGRADE_DESCRIPTION": "Block is not removed at the start of your next X+2 turns."
   }
 }
