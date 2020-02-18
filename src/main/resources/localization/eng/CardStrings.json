@@ -46,5 +46,10 @@
     "NAME": "Pet",
     "DESCRIPTION": "Gain !B! Block. Draw a card.",
     "UPGRADE_DESCRIPTION": "Gain !B! Block. Draw 2 cards."
+  },
+  "alterego_mod:Belts": {
+    "NAME": "Belts",
+    "DESCRIPTION": "Deal !D! damage X times. Whenever you attack this enemy, gain X Block. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. Whenever you attack this enemy, gain 2X Block. Exhaust."
   }
 }

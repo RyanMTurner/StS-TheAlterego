@@ -31,8 +31,8 @@ public class PassionlipRocketPunch
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.UNCOMMON, CardTarget.SELF_AND_ENEMY);
-        this.baseDamage = 7;
-        this.baseBlock = 7;
+        this.baseDamage = 4;
+        this.baseBlock = 4;
     }
 
     @Override
