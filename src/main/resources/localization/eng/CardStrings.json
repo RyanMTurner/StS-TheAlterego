@@ -41,5 +41,10 @@
   "alterego_mod:MagicResistance": {
     "NAME": "Magic Resistance",
     "DESCRIPTION": "Gain !M! Artifact. Exhaust."
+  },
+  "alterego_mod:Pet": {
+    "NAME": "Pet",
+    "DESCRIPTION": "Gain !B! Block. Draw a card.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. Draw 2 cards."
   }
 }
