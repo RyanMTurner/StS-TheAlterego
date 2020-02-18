@@ -37,5 +37,9 @@
   "alterego_mod:Jiggle": {
     "NAME": "Jiggle",
     "DESCRIPTION": "Apply !M! Weak to ALL enemies."
+  },
+  "alterego_mod:MagicResistance": {
+    "NAME": "Magic Resistance",
+    "DESCRIPTION": "Gain !M! Artifact. Exhaust."
   }
 }

@@ -32,7 +32,6 @@ public class PassionlipJiggle
                 CardType.SKILL, Passionlip_Purple,
                 CardRarity.COMMON, CardTarget.ALL_ENEMY);
         this.baseMagicNumber = 1;
-        this.exhaust = true;
     }
 
     @Override
