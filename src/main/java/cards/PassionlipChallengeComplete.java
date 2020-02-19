@@ -49,7 +49,7 @@ public class PassionlipChallengeComplete
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(8);
+            this.upgradeMagicNumber(3);
         }
     }
 }
