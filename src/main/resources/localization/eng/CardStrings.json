@@ -56,5 +56,9 @@
     "NAME": "Presence Concealment",
     "DESCRIPTION": "Block is not removed at the start of your next X turns.",
     "UPGRADE_DESCRIPTION": "Block is not removed at the start of your next X+2 turns."
+  },
+  "alterego_mod:ChallengeComplete": {
+    "NAME": "Challenge Complete",
+    "DESCRIPTION": "Gain !M! Plated Armor."
   }
 }
