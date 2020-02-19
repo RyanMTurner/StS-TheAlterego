@@ -60,5 +60,9 @@
   "alterego_mod:ChallengeComplete": {
     "NAME": "Challenge Complete",
     "DESCRIPTION": "Gain !M! Plated Armor."
+  },
+  "alterego_mod:Complex": {
+    "NAME": "Complex",
+    "DESCRIPTION": "Deal !D! damage. Apply !M! Frail."
   }
 }
