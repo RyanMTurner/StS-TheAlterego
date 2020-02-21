@@ -76,5 +76,10 @@
   "alterego_mod:1TonWallop": {
     "NAME": "1 Ton Wallop",
     "DESCRIPTION": "Deal !D! damage and apply !M! Vulnerable to ALL enemies. Take 4 damage."
+  },
+  "alterego_mod:Mirror": {
+    "NAME": "Mirror",
+    "DESCRIPTION": "Perform the enemy's intent on them.",
+    "UPGRADE_DESCRIPTION": "Perform the enemy's intent on ALL enemies."
   }
 }
