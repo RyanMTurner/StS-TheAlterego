@@ -81,5 +81,9 @@
     "NAME": "Mirror",
     "DESCRIPTION": "Perform the enemy's intent on them.",
     "UPGRADE_DESCRIPTION": "Perform the enemy's intent on ALL enemies."
+  },
+  "alterego_mod:SakuraPetals": {
+    "NAME": "Sakura Petals",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Poison to ALL enemies."
   }
 }
