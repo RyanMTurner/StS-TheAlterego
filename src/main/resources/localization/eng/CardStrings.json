@@ -68,5 +68,9 @@
   "alterego_mod:Lift": {
     "NAME": "Lift",
     "DESCRIPTION": "Gain 1 Strength for every !M! HP you're missing."
+  },
+  "alterego_mod:BiFurious": {
+    "NAME": "Bi-Furious",
+    "DESCRIPTION": "Gain !M! Strength this turn. Deal !D! damage twice."
   }
 }
