@@ -20,8 +20,8 @@ import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 public class TheAlteregoCharacter extends CustomPlayer {
     public static final int ENERGY_PER_TURN = 3; // how much energy you get every turn
-    public static final String MY_CHARACTER_SHOULDER_2 = "img/char/shoulder2.png"; // campfire pose
-    public static final String MY_CHARACTER_SHOULDER_1 = "img/char/shoulder1.png"; // another campfire pose
+    public static final String MY_CHARACTER_SHOULDER_2 = "images/shoulder.png"; // campfire pose
+    public static final String MY_CHARACTER_SHOULDER_1 = "images/shoulder.png"; // another campfire pose
     public static final String MY_CHARACTER_CORPSE = "images/corpse.png"; // dead corpse
     public static final String MY_CHARACTER_SKELETON_ATLAS = "images/skeleton/skeleton.atlas"; // spine animation atlas
     public static final String MY_CHARACTER_SKELETON_JSON = "images/skeleton/skeleton.json"; // spine animation json
