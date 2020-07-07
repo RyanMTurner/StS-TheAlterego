@@ -85,5 +85,10 @@
   "alterego_mod:SakuraPetals": {
     "NAME": "Sakura Petals",
     "DESCRIPTION": "Deal !D! damage and apply !M! Poison to ALL enemies."
+  },
+  "alterego_mod:BigMeatyClaws": {
+    "NAME": "Big Meaty Claws",
+    "DESCRIPTION": "Enter alterego_mod:Durga. Add X Shivs to your hand.",
+    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. Add X+2 Shivs to your hand."
   }
 }

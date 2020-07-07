@@ -147,6 +147,11 @@ public class TheAlteregoCharacter extends CustomPlayer {
     }
 
     @Override
+    public String getPortraitImageName() {
+        return null;
+    }
+
+    @Override
     public ArrayList<String> getStartingDeck() { // starting deck 'nuff said
         ArrayList<String> retVal = new ArrayList<>();
 
@@ -158,6 +163,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:Defend");
         retVal.add("alterego_mod:Defend");
         retVal.add("alterego_mod:Defend");
+        retVal.add("alterego_mod:BigMeatyClaws");
 
         //retVal.add("alterego_mod:Birthday");
         return retVal;

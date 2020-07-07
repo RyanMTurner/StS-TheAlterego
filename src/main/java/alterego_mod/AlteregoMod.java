@@ -1,19 +1,23 @@
 package alterego_mod;
 
 import basemod.BaseMod;
-import basemod.interfaces.EditCardsSubscriber;
-import basemod.interfaces.EditCharactersSubscriber;
-import basemod.interfaces.EditRelicsSubscriber;
-import basemod.interfaces.EditStringsSubscriber;
+import basemod.interfaces.*;
 import cards.*;
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.localization.Keyword;
 import com.megacrit.cardcrawl.localization.RelicStrings;
+import com.megacrit.cardcrawl.localization.StanceStrings;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import relics.MasochisticConstitutionRelic;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+import java.nio.charset.StandardCharsets;
 
 import static alterego_mod.AbstractCardEnum.Passionlip_Purple;
 import static basemod.BaseMod.addColor;
@@ -22,7 +26,10 @@ import static basemod.BaseMod.addColor;
 public class AlteregoMod implements EditCharactersSubscriber,
         EditRelicsSubscriber,
         EditStringsSubscriber,
-        EditCardsSubscriber {
+        EditCardsSubscriber,
+        EditKeywordsSubscriber {
+
+    public static final Logger logger = LogManager.getLogger(AlteregoMod.class.getName());
 
     public AlteregoMod() {
         BaseMod.subscribe(this);
@@ -55,6 +62,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
     public void receiveEditStrings() {
         BaseMod.loadCustomStringsFile(RelicStrings.class, "localization/eng/RelicStrings.json");
         BaseMod.loadCustomStringsFile(CardStrings.class, "localization/eng/CardStrings.json");
+        BaseMod.loadCustomStringsFile(StanceStrings.class, "localization/eng/StanceStrings.json");
     }
 
     @Override
@@ -84,7 +92,23 @@ public class AlteregoMod implements EditCharactersSubscriber,
         BaseMod.addCard(new Passionlip1TonWallop());
         BaseMod.addCard(new PassionlipMirror());
         BaseMod.addCard(new PassionlipSakuraPetals());
+        BaseMod.addCard(new PassionlipBigMeatyClaws());
 
         //UnlockTracker.unlockCard("alterego_mod:RocketPunch");
+    }
+
+    @Override
+    public void receiveEditKeywords() {
+        logger.info("Setting up Alterego keywords.");
+        Gson gson = new Gson();
+        String json = Gdx.files.internal("localization/eng/KeywordStrings.json").readString(String.valueOf(StandardCharsets.UTF_8));
+        Keyword[] keywords = gson.fromJson(json, Keyword[].class);
+
+        if (keywords != null) {
+            for (Keyword keyword : keywords) {
+                logger.info("Loading keyword : " + keyword.NAMES[0]);
+                BaseMod.addKeyword(keyword.NAMES, keyword.DESCRIPTION);
+            }
+        }
     }
 }
