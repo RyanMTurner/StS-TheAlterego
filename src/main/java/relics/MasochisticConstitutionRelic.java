@@ -2,7 +2,7 @@ package relics;
 
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
-import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 
@@ -24,7 +24,9 @@ public class MasochisticConstitutionRelic extends CustomRelic {
     @Override
     public void onLoseHp(int damageAmount) {
         if (!this.tookUnblockedDamageThisCombat) {
-            this.flash();
+            this.pulse = true;
+            this.beginPulse();
+            this.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             this.tookUnblockedDamageThisCombat = true;
         }
     }
@@ -33,6 +35,8 @@ public class MasochisticConstitutionRelic extends CustomRelic {
     public void onVictory() {
         if (this.tookUnblockedDamageThisCombat) {
             this.flash();
+            this.pulse = false;
+            this.stopPulse();
             AbstractDungeon.player.increaseMaxHp(1, true);
         }
     }
