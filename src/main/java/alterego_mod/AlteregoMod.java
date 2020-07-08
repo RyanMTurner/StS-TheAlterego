@@ -8,10 +8,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.localization.Keyword;
-import com.megacrit.cardcrawl.localization.RelicStrings;
-import com.megacrit.cardcrawl.localization.StanceStrings;
+import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import relics.MasochisticConstitutionRelic;
 import org.apache.logging.log4j.LogManager;
@@ -63,6 +60,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
         BaseMod.loadCustomStringsFile(RelicStrings.class, "localization/eng/RelicStrings.json");
         BaseMod.loadCustomStringsFile(CardStrings.class, "localization/eng/CardStrings.json");
         BaseMod.loadCustomStringsFile(StanceStrings.class, "localization/eng/StanceStrings.json");
+        BaseMod.loadCustomStringsFile(PowerStrings.class, "localization/eng/PowerStrings.json");
     }
 
     @Override
@@ -93,6 +91,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
         BaseMod.addCard(new PassionlipMirror());
         BaseMod.addCard(new PassionlipSakuraPetals());
         BaseMod.addCard(new PassionlipBigMeatyClaws());
+        BaseMod.addCard(new PassionlipClassAdvantage());
 
         //UnlockTracker.unlockCard("alterego_mod:RocketPunch");
     }

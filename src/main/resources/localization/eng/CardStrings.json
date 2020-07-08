@@ -90,5 +90,10 @@
     "NAME": "Big Meaty Claws",
     "DESCRIPTION": "Enter alterego_mod:Durga. Add X Shivs to your hand.",
     "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. Add X+2 Shivs to your hand."
+  },
+  "alterego_mod:ClassAdvantage": {
+    "NAME": "Class Advantage",
+    "DESCRIPTION": "Deal 10% more damge. Take 10% less damage.",
+    "UPGRADE_DESCRIPTION": "Deal 15% more damge. Take 15% less damage."
   }
 }

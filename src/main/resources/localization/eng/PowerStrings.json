@@ -1,0 +1,14 @@
+{
+  "alterego_mod:ClassAdvantagePower": {
+    "NAME": "Class Advantage",
+    "DESCRIPTIONS": [
+      "Deal 10% more damage. Take 10% less damage."
+    ]
+  },
+  "alterego_mod:ClassAdvantageLitePower": {
+        "NAME": "Class Advantage",
+        "DESCRIPTIONS": [
+                "Deal 10% more damage. Take 10% less damage."
+        ]
+    }
+}
