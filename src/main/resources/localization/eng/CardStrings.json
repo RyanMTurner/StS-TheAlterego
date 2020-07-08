@@ -95,5 +95,9 @@
     "NAME": "Class Advantage",
     "DESCRIPTION": "Deal 10% more damge. Take 10% less damage.",
     "UPGRADE_DESCRIPTION": "Deal 15% more damge. Take 15% less damage."
+  },
+  "alterego_mod:PainIsPleasure": {
+    "NAME": "Pain is Pleasure",
+    "DESCRIPTION": "Taking damage instead heals you this turn."
   }
 }

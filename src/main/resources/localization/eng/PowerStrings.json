@@ -10,5 +10,11 @@
         "DESCRIPTIONS": [
                 "Deal 10% more damage. Take 10% less damage."
         ]
+    },
+  "alterego_mod:PainIsPleasurePower": {
+        "NAME": "Pain is Pleasure",
+        "DESCRIPTIONS": [
+                "Taking damage instead heals you this turn."
+        ]
     }
 }

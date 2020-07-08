@@ -20,7 +20,7 @@ public class AlteregoClassAdvantageLite extends AbstractPower {
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
     // We create 2 new textures *Using This Specific Texture Loader* - an 84x84 image and a 32x32 one.
-    private static final Texture tex84 = TextureLoader.getTexture("images/powers/placeholder_84.png");
+    private static final Texture tex84 = TextureLoader.getTexture("images/powers/ClassAdvantageLite_84.png");
     private static final Texture tex32 = TextureLoader.getTexture("images/powers/ClassAdvantageLite_32.png");
 
     public AlteregoClassAdvantageLite(final AbstractCreature owner, final AbstractCreature source, final int amount) {
