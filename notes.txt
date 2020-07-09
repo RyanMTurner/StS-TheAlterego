@@ -1,2 +1,20 @@
 https://github.com/LegendBegins/The-Railgun
 Stun
+
+Crash on win
+22:04:10.209 INFO core.CardCrawlGame> Exception occurred in CardCrawlGame render method!
+22:04:10.210 ERROR core.CardCrawlGame> Exception caught
+java.lang.NullPointerException: null
+	at java.io.StringReader.<init>(StringReader.java:50) ~[?:1.8.0_144]
+	at java.util.Scanner.<init>(Scanner.java:702) ~[?:1.8.0_144]
+	at com.megacrit.cardcrawl.events.RoomEventDialog.updateBodyText(RoomEventDialog.java:171) ~[desktop-1.0.jar:?]
+	at com.megacrit.cardcrawl.events.RoomEventDialog.updateBodyText(RoomEventDialog.java:167) ~[desktop-1.0.jar:?]
+	at com.megacrit.cardcrawl.events.beyond.SpireHeart.buttonEffect(SpireHeart.java:151) ~[desktop-1.0.jar:?]
+	at com.megacrit.cardcrawl.events.AbstractEvent.update(AbstractEvent.java:124) ~[?:?]
+	at com.megacrit.cardcrawl.events.beyond.SpireHeart.update(SpireHeart.java:123) ~[desktop-1.0.jar:?]
+	at com.megacrit.cardcrawl.rooms.VictoryRoom.update(VictoryRoom.java:40) ~[desktop-1.0.jar:?]
+	at com.megacrit.cardcrawl.dungeons.AbstractDungeon.update(AbstractDungeon.java:2512) ~[?:?]
+	at com.megacrit.cardcrawl.core.CardCrawlGame.update(CardCrawlGame.java:879) ~[?:?]
+	at com.megacrit.cardcrawl.core.CardCrawlGame.render(CardCrawlGame.java:427) [?:?]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225) [?:?]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126) [desktop-1.0.jar:?]
