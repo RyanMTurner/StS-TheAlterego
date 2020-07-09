@@ -102,7 +102,7 @@
   },
   "alterego_mod:IdEs": {
     "NAME": "Id_es",
-    "DESCRIPTION": "Play every card in your exhaust pile. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Play every card in your exhaust pile. Retain. Exhaust."
+    "DESCRIPTION": "Play every card in your exhaust pile, then Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Play every card in your exhaust pile, then Exhaust."
   }
 }
