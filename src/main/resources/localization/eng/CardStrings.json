@@ -109,5 +109,9 @@
     "NAME": "\"Clones\"",
     "DESCRIPTION": "Add a copy of a card in your hand to your hand. The copy gains Retain.",
     "UPGRADE_DESCRIPTION": "Add two copies of a card in your hand to your hand. The copies gain Retain."
+  },
+  "alterego_mod:RidiculouslyBig": {
+    "NAME": "Ridiculously Big",
+    "DESCRIPTION": "Gain !M! Temporary_HP."
   }
 }
