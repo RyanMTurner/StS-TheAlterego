@@ -99,5 +99,10 @@
   "alterego_mod:PainIsPleasure": {
     "NAME": "Pain is Pleasure",
     "DESCRIPTION": "Taking damage instead heals you this turn."
+  },
+  "alterego_mod:IdEs": {
+    "NAME": "Id_es",
+    "DESCRIPTION": "Play every card in your exhaust pile. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Play every card in your exhaust pile. Retain. Exhaust."
   }
 }

@@ -1,7 +1,9 @@
 package cards;
 
+import basemod.ReflectionHacks;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.EscapeAction;
 import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -12,11 +14,14 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.monsters.EnemyMoveInfo;
 import com.megacrit.cardcrawl.orbs.Lightning;
 import com.megacrit.cardcrawl.potions.SmokeBomb;
 import com.megacrit.cardcrawl.powers.*;
 
 import basemod.abstracts.CustomCard;
+
+import java.lang.reflect.Field;
 
 import static alterego_mod.AbstractCardEnum.Passionlip_Purple;
 import static com.megacrit.cardcrawl.monsters.AbstractMonster.Intent.ATTACK;
@@ -45,13 +50,13 @@ public class PassionlipMirror
             case ATTACK:
                 if (!this.upgraded) {
                     AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
-                            new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                            new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                             AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                 }
                 else {
                     for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
                         AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(mo,
-                                new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                                new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                                 AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                     }
                 }
@@ -59,13 +64,13 @@ public class PassionlipMirror
             case ATTACK_BUFF:
                 if (!this.upgraded) {
                     AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
-                            new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                            new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                             AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                 }
                 else {
                     for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
                         AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(mo,
-                                new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                                new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                                 AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                     }
                 }
@@ -74,7 +79,7 @@ public class PassionlipMirror
             case ATTACK_DEBUFF:
                 if (!this.upgraded) {
                     AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
-                            new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                            new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                             AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                     AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new WeakPower(m, 1, false)));
                     AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new VulnerablePower(m, 1, false)));
@@ -83,7 +88,7 @@ public class PassionlipMirror
                 else {
                     for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
                         AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(mo,
-                                new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                                new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                                 AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new WeakPower(mo, 1, false)));
                         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new VulnerablePower(mo, 1, false)));
@@ -94,18 +99,18 @@ public class PassionlipMirror
             case ATTACK_DEFEND:
                 if (!this.upgraded) {
                     AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
-                            new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                            new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                             AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                 }
                 else {
                     for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
                         AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(mo,
-                                new DamageInfo(p, m.getIntentBaseDmg(), this.damageTypeForTurn),
+                                new DamageInfo(p, getIntentDmg(m), this.damageTypeForTurn),
                                 AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                     }
                 }
                 AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.GainBlockAction(p,
-                        p, m.getIntentDmg()));
+                        p, getIntentDmg(m)));
                 break;
             case BUFF:
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new StrengthPower(p, 3)));
@@ -183,6 +188,29 @@ public class PassionlipMirror
             default:
                 break;
         }
+    }
+
+    private int getIntentDmg(AbstractMonster m) {
+        int intentDmg = 0;
+        try { //https://github.com/kiooeht/Hubris/blob/master/src/main/java/com/evacipated/cardcrawl/mod/hubris/actions/unique/CounterAction.java
+            Field f = AbstractMonster.class.getDeclaredField("move");
+            f.setAccessible(true);
+            EnemyMoveInfo move = (EnemyMoveInfo)f.get(m);
+            int multiplier = 1;
+            if (move.isMultiDamage) {
+                multiplier = move.multiplier;
+            }
+
+            f = AbstractMonster.class.getDeclaredField("intentDmg");
+            f.setAccessible(true);
+            move.baseDamage = f.getInt(m);
+
+            intentDmg = move.baseDamage * multiplier;
+
+        } catch (IllegalAccessException | NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        return intentDmg;
     }
 
     @Override
