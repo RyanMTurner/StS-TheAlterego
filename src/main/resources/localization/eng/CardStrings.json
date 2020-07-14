@@ -113,5 +113,10 @@
   "alterego_mod:RidiculouslyBig": {
     "NAME": "Ridiculously Big",
     "DESCRIPTION": "Gain !M! Temporary_HP."
+  },
+  "alterego_mod:Clap": {
+    "NAME": "Clap",
+    "DESCRIPTION": "Enter alterego_mod:Durga. This turn, your next Attack is played twice.",
+    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. This turn, your next two Attacks are played twice."
   }
 }
