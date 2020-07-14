@@ -88,8 +88,8 @@
   },
   "alterego_mod:BigMeatyClaws": {
     "NAME": "Big Meaty Claws",
-    "DESCRIPTION": "Enter alterego_mod:Durga. NL Add X Shivs to your hand.",
-    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. NL Add X+2 Shivs to your hand."
+    "DESCRIPTION": "Enter alterego_mod:Durga. NL Add X *Shivs to your hand.",
+    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. NL Add X+2 *Shivs to your hand."
   },
   "alterego_mod:ClassAdvantage": {
     "NAME": "Class Advantage",
@@ -122,7 +122,7 @@
   "alterego_mod:Cushion": {
     "NAME": "Cushion",
     "DESCRIPTION": "Gain 1 Intangible. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain 1 Intangible. NL Exhaust. NL Shuffle a Cushion into your draw pile."
+    "UPGRADE_DESCRIPTION": "Gain 1 Intangible. NL Exhaust. NL Shuffle a *Cushion into your draw pile."
   },
   "alterego_mod:Skirt": {
     "NAME": "Skirt",
@@ -132,5 +132,10 @@
     "NAME": "Deft Hands",
     "DESCRIPTION": "Deal !D! damage. NL Gain 1 Dexterity.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 Dexterity. NL Gain !B! Block."
+  },
+  "alterego_mod:DustData": {
+    "NAME": "Dust Data",
+    "DESCRIPTION": "Fleeting. NL Kill a non-boss enemy. NL Become cursed: *Regret.",
+    "UPGRADE_DESCRIPTION": "Fleeting. NL Kill a non-boss enemy."
   }
 }
