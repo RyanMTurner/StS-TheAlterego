@@ -165,7 +165,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:Defend");
         retVal.add("alterego_mod:BigMeatyClaws");
 
-        retVal.add("alterego_mod:Skirt");
+        retVal.add("alterego_mod:DeftHands");
         return retVal;
     }
 
