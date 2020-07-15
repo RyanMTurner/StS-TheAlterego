@@ -1,8 +1,15 @@
 [
   {
     "NAMES": [
-      "alterego_mod:durga", "alterego_mod:Durga"
+      "alterego_mod:durga",
+      "alterego_mod:Durga"
     ],
     "DESCRIPTION": "In this #yStance, your attacks deal half damage and are played twice."
+  },
+  {
+    "NAMES": [
+      "alterego_mod:brynhildr", "alterego_mod:Brynhildr"
+    ],
+    "DESCRIPTION": "In this #yStance, defeating an enemy heals you for 7."
   }
 ]

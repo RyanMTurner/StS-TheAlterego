@@ -137,5 +137,9 @@
     "NAME": "Dust Data",
     "DESCRIPTION": "Fleeting. NL Kill a non-boss enemy. NL Become cursed: *Regret.",
     "UPGRADE_DESCRIPTION": "Fleeting. NL Kill a non-boss enemy."
+  },
+  "alterego_mod:BrynhildrsRune": {
+    "NAME": "Brynhildr's Rune",
+    "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Gain !M! Dexterity. NL Gain !B! Block."
   }
 }

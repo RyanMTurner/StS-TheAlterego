@@ -5,5 +5,12 @@
       "Your attacks deal half damage and are played twice.",
       "Your attacks deal half damage and are played twice."
     ]
+  },
+  "alterego_mod:Brynhildr": {
+    "NAME": "Brynhildr",
+    "DESCRIPTION": [
+      "Defeating an enemy while in this stance heals you for 7.",
+      "Defeating an enemy while in this stance heals you for 7."
+    ]
   }
 }
