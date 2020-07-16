@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import basemod.abstracts.CustomPlayer;
 import basemod.animations.SpriterAnimation;
+import cards.PassionlipBigMeatyClaws;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -88,8 +89,8 @@ public class TheAlteregoCharacter extends CustomPlayer {
     //Which card should be obtainable from the Match and Keep event?
     @Override
     public AbstractCard getStartCardForEvent() {
-        return null;
-    }
+        return new PassionlipBigMeatyClaws();
+    } //TODO: Make this a random one of the stance cards?
 
     // Should return how much HP your maximum HP reduces by when starting a run at
     // Ascension 14 or higher. (ironclad loses 5, defect and silent lose 4 hp respectively)
@@ -166,7 +167,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:BigMeatyClaws");
         retVal.add("alterego_mod:BrynhildrsRune");
 
-        retVal.add("alterego_mod:PerceptionDisorder");
+        //retVal.add("alterego_mod:Punishment");
         return retVal;
     }
 

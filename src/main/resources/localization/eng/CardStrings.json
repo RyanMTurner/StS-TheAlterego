@@ -149,5 +149,10 @@
   "alterego_mod:PerceptionDisorder": {
     "NAME": "Perception Disorder",
     "DESCRIPTION": "Gain !M! Strength. NL You can no longer see enemy intents this battle."
+  },
+  "alterego_mod:Punishment": {
+    "NAME": "Punishment",
+    "DESCRIPTION": "Each turn, gain [E]. NL At the end of each turn, lose 1 HP for each card in your hand.",
+    "UPGRADE_DESCRIPTION": "Each turn, gain [E]. NL At the end of each turn, lose 1 HP for every 2 cards in your hand."
   }
 }

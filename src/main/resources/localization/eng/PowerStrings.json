@@ -2,25 +2,37 @@
   "alterego_mod:ClassAdvantagePower": {
     "NAME": "Class Advantage",
     "DESCRIPTIONS": [
-      "Deal 10% more damage. Take 10% less damage."
+      "Deal 15% more damage. Take 15% less damage."
     ]
   },
   "alterego_mod:ClassAdvantageLitePower": {
-        "NAME": "Class Advantage",
-        "DESCRIPTIONS": [
-                "Deal 10% more damage. Take 10% less damage."
-        ]
-    },
+    "NAME": "Class Advantage",
+    "DESCRIPTIONS": [
+      "Deal 10% more damage. Take 10% less damage."
+    ]
+  },
   "alterego_mod:PainIsPleasurePower": {
-        "NAME": "Pain is Pleasure",
-        "DESCRIPTIONS": [
-                "Taking damage instead heals you this turn."
-        ]
-    },
+    "NAME": "Pain is Pleasure",
+    "DESCRIPTIONS": [
+      "Taking damage instead heals you this turn."
+    ]
+  },
   "alterego_mod:PerceptionDisorderPower": {
-        "NAME": "Perception Disorder",
-        "DESCRIPTIONS": [
-                "You can't see enemy intents."
-        ]
-    }
+    "NAME": "Perception Disorder",
+    "DESCRIPTIONS": [
+      "You can't see enemy intents."
+    ]
+  },
+  "alterego_mod:PunishmentPower": {
+    "NAME": "Punishment",
+    "DESCRIPTIONS": [
+      "At the end of each turn, lose 1 HP for each card in your hand. Each turn, gain [E]."
+    ]
+  },
+  "alterego_mod:PunishmentPowerUpgraded": {
+    "NAME": "Punishment",
+    "DESCRIPTIONS": [
+      "Test."
+    ]
+  }
 }

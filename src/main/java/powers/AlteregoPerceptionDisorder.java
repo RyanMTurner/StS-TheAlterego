@@ -44,4 +44,9 @@ public class AlteregoPerceptionDisorder extends AbstractPower {
         updateDescription();
     }
 
+    @Override
+    public void updateDescription() {
+        this.description = DESCRIPTIONS[0];
+    }
+
 }
