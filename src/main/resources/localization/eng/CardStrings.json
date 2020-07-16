@@ -145,5 +145,9 @@
   "alterego_mod:BrynhildrRomantia": {
     "NAME": "Brynhildr Romantia",
     "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Deal !D! damage. NL If Fatal, raise your Max HP by !M!."
+  },
+  "alterego_mod:PerceptionDisorder": {
+    "NAME": "Perception Disorder",
+    "DESCRIPTION": "Gain !M! Strength. NL You can no longer see enemy intents this battle."
   }
 }

@@ -16,5 +16,11 @@
         "DESCRIPTIONS": [
                 "Taking damage instead heals you this turn."
         ]
+    },
+  "alterego_mod:PerceptionDisorderPower": {
+        "NAME": "Perception Disorder",
+        "DESCRIPTIONS": [
+                "You can't see enemy intents."
+        ]
     }
 }
