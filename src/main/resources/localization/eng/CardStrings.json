@@ -141,5 +141,9 @@
   "alterego_mod:BrynhildrsRune": {
     "NAME": "Brynhildr's Rune",
     "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Gain !M! Dexterity. NL Gain !B! Block."
+  },
+  "alterego_mod:BrynhildrRomantia": {
+    "NAME": "Brynhildr Romantia",
+    "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Deal !D! damage. NL If Fatal, raise your Max HP by !M!."
   }
 }
