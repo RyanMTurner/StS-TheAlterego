@@ -166,7 +166,8 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:BigMeatyClaws");
         retVal.add("alterego_mod:BrynhildrsRune");
 
-        retVal.add("alterego_mod:BrynhildrRomantia");
+        retVal.add("alterego_mod:RidiculouslyBig");
+        retVal.add("alterego_mod:Clones");
         return retVal;
     }
 

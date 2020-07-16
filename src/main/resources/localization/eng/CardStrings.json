@@ -112,7 +112,7 @@
   },
   "alterego_mod:RidiculouslyBig": {
     "NAME": "Ridiculously Big",
-    "DESCRIPTION": "Gain !M! Temporary_HP."
+    "DESCRIPTION": "Gain !M! Temporary_HP. NL Reduce the amount by 4 until the end of combat; Exhaust if it reaches 0."
   },
   "alterego_mod:Clap": {
     "NAME": "Clap",

@@ -1,6 +1,7 @@
 package cards;
 
 import actions.AlteregoClonesAction;
+import alterego_mod.AbstractCardEnum;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.unique.DualWieldAction;
@@ -35,16 +36,23 @@ public class PassionlipRidiculouslyBig
                 CardType.SKILL, Passionlip_Purple,
                 CardRarity.UNCOMMON, CardTarget.SELF);
         this.baseMagicNumber = 12;
+        this.magicNumber = this.baseMagicNumber;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new AddTemporaryHPAction(p, p, this.baseMagicNumber));
+        this.addToBot(new AddTemporaryHPAction(p, p, this.magicNumber));
+        this.upgradeMagicNumber(-4);
+        if (this.magicNumber == 0) {
+            this.exhaust = true;
+        }
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new PassionlipRidiculouslyBig();
+        AbstractCard newCard = new PassionlipRidiculouslyBig();
+        newCard.magicNumber = this.magicNumber;
+        return newCard;
     }
 
     @Override
