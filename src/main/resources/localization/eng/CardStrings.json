@@ -171,5 +171,9 @@
   "alterego_mod:Tantrum": {
     "NAME": "Tantrum",
     "DESCRIPTION": "Enter alterego_mod:Durga. NL Your attacks deal double damage for 3 turns."
+  },
+  "alterego_mod:Valkyrie": {
+    "NAME": "Valkyrie",
+    "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Deal !D! damage. NL If Fatal, gain !M! Regen."
   }
 }
