@@ -129,12 +129,12 @@ public class TheAlteregoCharacter extends CustomPlayer {
 
     @Override
     public String getSpireHeartText() {
-        return null;
+        return "NL You lash out with your claws...";
     }
 
     @Override
     public Color getSlashAttackColor() {
-        return null;
+        return Color.PURPLE;
     }
 
     @Override
