@@ -163,5 +163,9 @@
     "NAME": "Schoolgirl",
     "DESCRIPTION": "Retain your hand this turn.",
     "UPGRADE_DESCRIPTION": "Retain your hand this turn. NL Gain !M! Dexterity."
+  },
+  "alterego_mod:PurpleHair": {
+    "NAME": "Purple Hair",
+    "DESCRIPTION": "Lose all Block, gain 1 Thorns for every !M! lost. NL Exhaust."
   }
 }

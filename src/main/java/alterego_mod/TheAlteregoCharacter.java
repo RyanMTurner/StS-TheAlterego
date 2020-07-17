@@ -167,7 +167,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:BigMeatyClaws");
         retVal.add("alterego_mod:BrynhildrsRune");
 
-        retVal.add("alterego_mod:Schoolgirl");
+        retVal.add("alterego_mod:PurpleHair");
         return retVal;
     }
 
