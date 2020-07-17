@@ -54,5 +54,11 @@
       "Every other time you play a Shiv, gain ",
       " Temporary_HP."
     ]
+  },
+  "alterego_mod:SakuraLabyrinthPower": {
+    "NAME": "Sakura Labyrinth",
+    "DESCRIPTIONS": [
+      "Slow starts at 5."
+    ]
   }
 }

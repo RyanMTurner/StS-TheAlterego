@@ -193,5 +193,9 @@
     "NAME": "Disco Lights",
     "DESCRIPTION": "Every other time you play a *Shiv, gain !M! Temporary_HP.",
     "UPGRADE_DESCRIPTION": "Every time you play a *Shiv, gain !M! Temporary_HP."
+  },
+  "alterego_mod:SakuraLabyrinth": {
+    "NAME": "Sakura Labyrinth",
+    "DESCRIPTION": "Apply !M! Slow. NL Exhaust."
   }
 }
