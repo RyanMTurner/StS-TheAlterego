@@ -12,6 +12,11 @@ import com.megacrit.cardcrawl.localization.StanceStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.stances.AbstractStance;
 
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
 public class PassionlipDurga extends AbstractStance {
     public static final String STANCE_ID = "alterego_mod:Durga";
     private static final StanceStrings stanceString = CardCrawlGame.languagePack.getStanceString(STANCE_ID);
@@ -25,6 +30,8 @@ public class PassionlipDurga extends AbstractStance {
         this.name = NAME;
         this.particleTimer = TIMER;
         this.updateDescription();
+
+        cardsCreated = new java.util.ArrayList<AbstractCard>();
     }
 
     @Override
@@ -37,10 +44,10 @@ public class PassionlipDurga extends AbstractStance {
         return type == DamageInfo.DamageType.NORMAL ? damage * 0.5F : damage;
     }
 
-    boolean firstPlay = true;
+    java.util.ArrayList<AbstractCard> cardsCreated;
     public void onPlayCard(AbstractCard card, UseCardAction action) {
         super.onPlayCard(card);
-        if (firstPlay && card.type == AbstractCard.CardType.ATTACK) {
+        if ((cardsCreated == null || !cardsCreated.contains(card)) && card.type == AbstractCard.CardType.ATTACK) {
             //Taken from Double Tap power
             AbstractMonster m = null;
             if (action.target != null) {
@@ -48,6 +55,7 @@ public class PassionlipDurga extends AbstractStance {
             }
 
             AbstractCard tmp = card.makeSameInstanceOf();
+            cardsCreated.add(tmp);
             AbstractDungeon.player.limbo.addToBottom(tmp);
             tmp.current_x = card.current_x;
             tmp.current_y = card.current_y;
@@ -58,11 +66,7 @@ public class PassionlipDurga extends AbstractStance {
             }
 
             tmp.purgeOnUse = true;
-            firstPlay = false;
             AbstractDungeon.actionManager.addCardQueueItem(new CardQueueItem(tmp, m, card.energyOnUse, true, true), true);
-        }
-        else if (!firstPlay) {
-            firstPlay = true;
         }
     }
 }
