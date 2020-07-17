@@ -180,5 +180,9 @@
     "NAME": "GIGA MILK",
     "DESCRIPTION": "ALL COMBATANTS GAIN STRENGTH EQUAL TO YOUR STRENGTH.",
     "UPGRADE_DESCRIPTION": "ALL COMBATANTS GAIN STRENGTH EQUAL TO YOUR STRENGTH. NL (excluding target enemy)"
+  },
+  "alterego_mod:Smother": {
+    "NAME": "Smother",
+    "DESCRIPTION": "Apply !M! Constricted."
   }
 }
