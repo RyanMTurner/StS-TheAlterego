@@ -184,5 +184,9 @@
   "alterego_mod:Smother": {
     "NAME": "Smother",
     "DESCRIPTION": "Apply !M! Constricted."
+  },
+  "alterego_mod:Stockings": {
+    "NAME": "Stockings",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Weak, twice."
   }
 }
