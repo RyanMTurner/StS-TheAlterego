@@ -175,5 +175,10 @@
   "alterego_mod:Valkyrie": {
     "NAME": "Valkyrie",
     "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Deal !D! damage. NL If Fatal, gain !M! Regen."
+  },
+  "alterego_mod:GIGAMILK": {
+    "NAME": "GIGA MILK",
+    "DESCRIPTION": "ALL COMBATANTS GAIN STRENGTH EQUAL TO YOUR STRENGTH.",
+    "UPGRADE_DESCRIPTION": "ALL COMBATANTS GAIN STRENGTH EQUAL TO YOUR STRENGTH. NL (excluding target enemy)"
   }
 }
