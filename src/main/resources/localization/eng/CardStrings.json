@@ -158,5 +158,10 @@
   "alterego_mod:BeGentle": {
     "NAME": "Be Gentle",
     "DESCRIPTION": "Enemy heals !M! and loses its action this turn."
+  },
+  "alterego_mod:Schoolgirl": {
+    "NAME": "Schoolgirl",
+    "DESCRIPTION": "Retain your hand this turn.",
+    "UPGRADE_DESCRIPTION": "Retain your hand this turn. NL Gain !M! Dexterity."
   }
 }
