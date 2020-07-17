@@ -201,5 +201,9 @@
   "alterego_mod:GoddessCore": {
     "NAME": "Goddess' Core",
     "DESCRIPTION": "Deal !D! damage. NL Gain !M! Artifact."
+  },
+  "alterego_mod:SakuraFive": {
+    "NAME": "Sakura Five",
+    "DESCRIPTION": "Deal !D! damage 5 times."
   }
 }
