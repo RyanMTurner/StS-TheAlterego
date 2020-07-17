@@ -167,5 +167,9 @@
   "alterego_mod:PurpleHair": {
     "NAME": "Purple Hair",
     "DESCRIPTION": "Lose all Block, gain 1 Thorns for every !M! lost. NL Exhaust."
+  },
+  "alterego_mod:Tantrum": {
+    "NAME": "Tantrum",
+    "DESCRIPTION": "Enter alterego_mod:Durga. NL Your attacks deal double damage for 3 turns."
   }
 }
