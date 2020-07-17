@@ -197,5 +197,9 @@
   "alterego_mod:SakuraLabyrinth": {
     "NAME": "Sakura Labyrinth",
     "DESCRIPTION": "Apply !M! Slow. NL Exhaust."
+  },
+  "alterego_mod:GoddessCore": {
+    "NAME": "Goddess' Core",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Artifact."
   }
 }
