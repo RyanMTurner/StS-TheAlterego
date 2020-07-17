@@ -154,5 +154,9 @@
     "NAME": "Punishment",
     "DESCRIPTION": "Each turn, gain [E]. NL At the end of each turn, lose 1 HP for each card in your hand.",
     "UPGRADE_DESCRIPTION": "Each turn, gain [E]. NL At the end of each turn, lose 1 HP for every 2 cards in your hand."
+  },
+  "alterego_mod:BeGentle": {
+    "NAME": "Be Gentle",
+    "DESCRIPTION": "Enemy heals !M! and loses its action this turn."
   }
 }

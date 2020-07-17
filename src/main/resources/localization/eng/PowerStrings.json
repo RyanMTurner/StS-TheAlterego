@@ -32,7 +32,7 @@
   "alterego_mod:PunishmentPowerUpgraded": {
     "NAME": "Punishment",
     "DESCRIPTIONS": [
-      "Test."
+      "At the end of each turn, lose 1 HP for every 2 cards in your hand. Each turn, gain [E]."
     ]
   }
 }
