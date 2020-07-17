@@ -188,5 +188,10 @@
   "alterego_mod:Stockings": {
     "NAME": "Stockings",
     "DESCRIPTION": "Deal !D! damage and apply !M! Weak, twice."
+  },
+  "alterego_mod:DiscoLights": {
+    "NAME": "Disco Lights",
+    "DESCRIPTION": "Every other time you play a *Shiv, gain !M! Temporary_HP.",
+    "UPGRADE_DESCRIPTION": "Every time you play a *Shiv, gain !M! Temporary_HP."
   }
 }

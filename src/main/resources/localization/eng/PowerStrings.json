@@ -40,5 +40,19 @@
     "DESCRIPTIONS": [
       "Your attacks deal double damage."
     ]
+  },
+  "alterego_mod:DiscoLightsPower": {
+    "NAME": "Disco Lights",
+    "DESCRIPTIONS": [
+      "Every time you play a Shiv, gain ",
+      " Temporary_HP."
+    ]
+  },
+  "alterego_mod:DiscoLightsLitePower": {
+    "NAME": "Disco Lights",
+    "DESCRIPTIONS": [
+      "Every other time you play a Shiv, gain ",
+      " Temporary_HP."
+    ]
   }
 }
