@@ -205,5 +205,9 @@
   "alterego_mod:SakuraFive": {
     "NAME": "Sakura Five",
     "DESCRIPTION": "Deal !D! damage 5 times."
+  },
+  "alterego_mod:BoobPocket": {
+    "NAME": "Boob Pocket",
+    "DESCRIPTION": "Purge a card from your hand. NL Startup: Draw all cards this purged last combat."
   }
 }
