@@ -226,5 +226,9 @@
     "NAME": "Impale",
     "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain 2 Strength. NL Enemy gains 2 Strength. NL Deal !D! damage.",
     "UPGRADE_DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain 3 Strength. NL Enemy gains 1 Strength. NL Deal !D! damage."
+  },
+  "alterego_mod:Collar": {
+    "NAME": "Collar",
+    "DESCRIPTION": "Deal !D! damage twice. NL Whenever you play a card this turn, the enemy loses !M! HP."
   }
 }
