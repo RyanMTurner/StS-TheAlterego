@@ -46,6 +46,9 @@ public class PassionlipMirror
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        if (m == null) {
+            return;
+        }
         switch (m.intent) {
             case ATTACK:
                 if (!this.upgraded) {

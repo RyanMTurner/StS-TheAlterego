@@ -209,5 +209,9 @@
   "alterego_mod:BoobPocket": {
     "NAME": "Boob Pocket",
     "DESCRIPTION": "Purge a card from your hand. NL Startup: Draw all cards this purged last combat."
+  },
+  "alterego_mod:HighServant": {
+    "NAME": "High Servant",
+    "DESCRIPTION": "Draw a card that would change your Stance."
   }
 }
