@@ -1,4 +1,4 @@
-{
+﻿{
   "alterego_mod:Strike": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage."
@@ -212,6 +212,6 @@
   },
   "alterego_mod:HighServant": {
     "NAME": "High Servant",
-    "DESCRIPTION": "alterego_mod:Swipe a card that would change your Stance. NL alterego_mod:Buggy"
+    "DESCRIPTION": "alterego_mod:Swipe a card that would change your Stance."
   }
 }

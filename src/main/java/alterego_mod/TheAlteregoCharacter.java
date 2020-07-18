@@ -168,7 +168,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:BigMeatyClaws");
         retVal.add("alterego_mod:BrynhildrsRune");
 
-        retVal.add("alterego_mod:HighServant");
+        //retVal.add("alterego_mod:HighServant");
         return retVal;
     }
 
@@ -176,7 +176,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
     public ArrayList<String> getStartingRelics() { // starting relics - also simple
         ArrayList<String> retVal = new ArrayList<>();
         retVal.add("alterego_mod:MasochisticConstitution");
-        retVal.add(com.megacrit.cardcrawl.relics.FrozenEye.ID);
+        //retVal.add(com.megacrit.cardcrawl.relics.FrozenEye.ID);
         UnlockTracker.markRelicAsSeen("alterego_mod:MasochisticConstitution");
         return retVal;
     }

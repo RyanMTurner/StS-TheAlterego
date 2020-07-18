@@ -132,8 +132,8 @@ public class AlteregoMod implements EditCharactersSubscriber,
 
         if (keywords != null) {
             for (Keyword keyword : keywords) {
-                logger.info("Loading keyword : " + keyword.NAMES[0]);
-                BaseMod.addKeyword(keyword.NAMES, keyword.DESCRIPTION);
+                logger.info("Loading keyword : " + keyword);
+                BaseMod.addKeyword("alterego_mod:", keyword.NAMES[0], keyword.NAMES, keyword.DESCRIPTION);
             }
         }
     }
