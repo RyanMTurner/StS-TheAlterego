@@ -12,5 +12,12 @@
       "Defeating an enemy while in this stance heals you for 7.",
       "Defeating an enemy while in this stance heals you for 7."
     ]
+  },
+  "alterego_mod:Parvati": {
+    "NAME": "Parvati",
+    "DESCRIPTION": [
+      "Enemies who deal 10+ unblocked damage in one hit lose their next action.",
+      "Enemies who deal 10+ unblocked damage in one hit lose their next action."
+    ]
   }
 }

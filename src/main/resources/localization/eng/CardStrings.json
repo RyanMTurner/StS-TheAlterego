@@ -221,5 +221,10 @@
   "alterego_mod:Bounce": {
     "NAME": "Bounce",
     "DESCRIPTION": "Deal !D! damage. NL alterego_mod:Swipe a *Bounce."
+  },
+  "alterego_mod:Impale": {
+    "NAME": "Impale",
+    "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain 2 Strength. NL Enemy gains 2 Strength. NL Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain 3 Strength. NL Enemy gains 1 Strength. NL Deal !D! damage."
   }
 }

@@ -13,6 +13,12 @@
   },
   {
     "NAMES": [
+      "Parvati", "parvati"
+    ],
+    "DESCRIPTION": "In this #yStance, enemies who deal 10+ unblocked damage in one hit lose their next action."
+  },
+  {
+    "NAMES": [
       "Swipe", "swipe"
     ],
     "DESCRIPTION": "Draw the topmost qualifying card from your draw pile. Doesn't shuffle."

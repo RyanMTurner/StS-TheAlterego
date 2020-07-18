@@ -165,10 +165,11 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:Defend");
         retVal.add("alterego_mod:Defend");
         retVal.add("alterego_mod:Defend");
+        retVal.add("alterego_mod:Impale");
         retVal.add("alterego_mod:BigMeatyClaws");
         retVal.add("alterego_mod:BrynhildrsRune");
 
-        //retVal.add("alterego_mod:Bounce");
+        //retVal.add("alterego_mod:Impale");
         return retVal;
     }
 

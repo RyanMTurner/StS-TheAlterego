@@ -5,6 +5,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.stances.AbstractStance;
 import stances.PassionlipBrynhildr;
 import stances.PassionlipDurga;
+import stances.PassionlipParvati;
 
 public class AbstractStancePatch {
 
@@ -17,6 +18,9 @@ public class AbstractStancePatch {
             }
             if (stanceID.equals(PassionlipBrynhildr.STANCE_ID)) {
                 return SpireReturn.Return(new PassionlipBrynhildr());
+            }
+            if (stanceID.equals(PassionlipParvati.STANCE_ID)) {
+                return SpireReturn.Return(new PassionlipParvati());
             }
 
             return SpireReturn.Continue();
