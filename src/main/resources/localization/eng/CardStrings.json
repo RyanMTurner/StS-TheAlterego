@@ -148,7 +148,7 @@
   },
   "alterego_mod:PerceptionDisorder": {
     "NAME": "Perception Disorder",
-    "DESCRIPTION": "Gain !M! Strength. NL You can no longer see enemy intents this battle."
+    "DESCRIPTION": "Gain !M! Strength. NL You won't see enemy intents until the end of combat."
   },
   "alterego_mod:Punishment": {
     "NAME": "Punishment",
@@ -213,5 +213,9 @@
   "alterego_mod:HighServant": {
     "NAME": "High Servant",
     "DESCRIPTION": "alterego_mod:Swipe a card that would change your Stance."
+  },
+  "alterego_mod:IndependentAction": {
+    "NAME": "Independent Action",
+    "DESCRIPTION": "Gain !M! energy. NL Increase this card's energy gain by 1 until the end of combat."
   }
 }
