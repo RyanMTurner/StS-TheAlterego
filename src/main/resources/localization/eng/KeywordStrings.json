@@ -1,8 +1,7 @@
 [
   {
     "NAMES": [
-      "alterego_mod:durga",
-      "alterego_mod:Durga"
+      "alterego_mod:durga", "alterego_mod:Durga"
     ],
     "DESCRIPTION": "In this #yStance, your attacks deal half damage and are played twice."
   },
@@ -11,5 +10,17 @@
       "alterego_mod:brynhildr", "alterego_mod:Brynhildr"
     ],
     "DESCRIPTION": "In this #yStance, defeating an enemy heals you for 7."
+  },
+  {
+    "NAMES": [
+      "alterego_mod:swipe", "alterego_mod:Swipe"
+    ],
+    "DESCRIPTION": "Draw the topmost qualifying card from your draw pile. Doesn't shuffle."
+  },
+  {
+    "NAMES": [
+      "alterego_mod:buggy", "alterego_mod:Buggy"
+    ],
+    "DESCRIPTION": "Please be on the lookout for and report issues with this card. It sucks."
   }
 ]
