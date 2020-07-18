@@ -35,7 +35,7 @@ public class PassionlipImpale
     public PassionlipImpale() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.ATTACK, Passionlip_Purple,
-                CardRarity.COMMON, CardTarget.ENEMY);
+                CardRarity.BASIC, CardTarget.ENEMY);
         this.baseDamage = 8;
     }
 

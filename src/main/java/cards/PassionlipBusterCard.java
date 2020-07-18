@@ -1,61 +1,73 @@
 package cards;
 
+import actions.AlteregoBusterAction;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.actions.unique.ApotheosisAction;
+import com.megacrit.cardcrawl.actions.unique.ArmamentsAction;
+import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.colorless.Apotheosis;
+import com.megacrit.cardcrawl.cards.purple.TalkToTheHand;
+import com.megacrit.cardcrawl.cards.red.Armaments;
+import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.*;
+import com.megacrit.cardcrawl.powers.DexterityPower;
+import com.megacrit.cardcrawl.powers.VulnerablePower;
 
 import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.powers.watcher.BlockReturnPower;
+import com.megacrit.cardcrawl.relics.ChemicalX;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+import stances.PassionlipDurga;
 
 import static alterego_mod.AbstractCardEnum.Passionlip_Purple;
 
-public class PassionlipGIGAMILK
+public class PassionlipBusterCard
         extends CustomCard {
-    public static final String ID = "alterego_mod:GIGAMILK";
+    public static final String ID = "alterego_mod:BusterCard";
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     // Get object containing the strings that are displayed in the game.
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "images/cards/GIGAMILK.png";
+    public static final String IMG_PATH = "images/cards/BusterCard.png";
     private static final int COST = 1;
 
-    public PassionlipGIGAMILK() {
+    public static int busterCardsPlayedThisTurn = 0;
+
+    public PassionlipBusterCard() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
-                CardType.SKILL, Passionlip_Purple,
-                CardRarity.RARE, CardTarget.ALL);
+                CardType.ATTACK, Passionlip_Purple,
+                CardRarity.UNCOMMON, CardTarget.ENEMY);
+        this.baseDamage = 7;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractPower pwr = p.getPower("Strength");
-        if (pwr != null) {
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new StrengthPower(p, pwr.amount)));
-            for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
-                if (this.upgraded && mo == m) {
-                    continue;
-                }
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new StrengthPower(mo, pwr.amount)));
-            }
-        }
+        this.addToBot(new AlteregoBusterAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), this));
+    }
+
+    @Override
+    public void atTurnStart() {
+        busterCardsPlayedThisTurn = 0;
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new PassionlipGIGAMILK();
+        return new PassionlipBusterCard();
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.target = CardTarget.ENEMY;
             this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }

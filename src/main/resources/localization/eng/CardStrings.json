@@ -230,5 +230,10 @@
   "alterego_mod:Collar": {
     "NAME": "Collar",
     "DESCRIPTION": "Deal !D! damage twice. NL Whenever you play a card this turn, the enemy loses !M! HP."
+  },
+  "alterego_mod:BusterCard": {
+    "NAME": "Buster Card",
+    "DESCRIPTION": "Deal !D! damage. NL Add a copy of this card to your discard pile. NL If this is the third *Buster *Card you've played this turn, double your Strength.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add a copy of this card to your discard pile. NL If this is the third *Buster *Card you've played this turn, triple your Strength."
   }
 }
