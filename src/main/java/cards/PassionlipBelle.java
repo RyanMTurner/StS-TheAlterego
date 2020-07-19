@@ -34,9 +34,8 @@ public class PassionlipBelle
     public PassionlipBelle() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.ATTACK, Passionlip_Purple,
-                CardRarity.COMMON, CardTarget.ENEMY);
+                CardRarity.UNCOMMON, CardTarget.ENEMY);
         this.baseDamage = 12;
-        this.baseMagicNumber = 1;
     }
 
     @Override

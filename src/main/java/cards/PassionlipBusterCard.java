@@ -47,7 +47,7 @@ public class PassionlipBusterCard
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.UNCOMMON, CardTarget.ENEMY);
-        FleetingField.fleeting.set(this, true);
+        this.baseDamage = 7;
     }
 
     @Override
