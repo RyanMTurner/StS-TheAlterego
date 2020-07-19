@@ -244,5 +244,9 @@
   "alterego_mod:BustOut": {
     "NAME": "Bust Out",
     "DESCRIPTION": "Lose all Block, heal that much. NL Lose all Dexterity, gain that much Strength."
+  },
+  "alterego_mod:GachaTicket": {
+    "NAME": "Gacha Ticket",
+    "DESCRIPTION": "The next time you play a card of a random type this turn, it is played twice."
   }
 }
