@@ -23,12 +23,12 @@ public class AlteregoClassAdvantageLite extends AbstractPower {
     private static final Texture tex84 = TextureLoader.getTexture("images/powers/ClassAdvantageLite_84.png");
     private static final Texture tex32 = TextureLoader.getTexture("images/powers/ClassAdvantageLite_32.png");
 
-    public AlteregoClassAdvantageLite(final AbstractCreature owner, final AbstractCreature source, final int amount) {
+    public AlteregoClassAdvantageLite(final AbstractCreature owner, final AbstractCreature source) {
         name = NAME;
         ID = POWER_ID;
 
         this.owner = owner;
-        this.amount = amount;
+        this.amount = -1;
         this.source = source;
 
         type = PowerType.BUFF;

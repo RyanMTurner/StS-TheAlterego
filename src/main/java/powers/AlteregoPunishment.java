@@ -48,15 +48,23 @@ public class AlteregoPunishment extends AbstractPower {
     }
 
     @Override
+    public void stackPower(int amount) {
+        if (amount > this.amount) {
+            AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(this.amount - amount));
+        }
+        super.stackPower(amount);
+    }
+
+    @Override
     public void atEndOfTurn(boolean isPlayer) {
         if (isPlayer) {
-            this.addToTop(new LoseHPAction(AbstractDungeon.player, AbstractDungeon.player, AbstractDungeon.player.hand.size(), AbstractGameAction.AttackEffect.FIRE));
+            this.addToTop(new LoseHPAction(AbstractDungeon.player, AbstractDungeon.player, AbstractDungeon.player.hand.size() * this.amount, AbstractGameAction.AttackEffect.FIRE));
         }
     }
 
     @Override
     public void atStartOfTurn() {
-        AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(1));
+        AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(this.amount));
     }
 
     @Override

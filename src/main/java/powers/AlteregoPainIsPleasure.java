@@ -26,12 +26,12 @@ public class AlteregoPainIsPleasure extends AbstractPower {
     private static final Texture tex84 = TextureLoader.getTexture("images/powers/PainIsPleasure_84.png");
     private static final Texture tex32 = TextureLoader.getTexture("images/powers/PainIsPleasure_32.png");
 
-    public AlteregoPainIsPleasure(final AbstractCreature owner, final AbstractCreature source, final int amount) {
+    public AlteregoPainIsPleasure(final AbstractCreature owner, final AbstractCreature source) {
         name = NAME;
         ID = POWER_ID;
 
         this.owner = owner;
-        this.amount = amount;
+        this.amount = -1;
         this.source = source;
 
         type = PowerType.BUFF;

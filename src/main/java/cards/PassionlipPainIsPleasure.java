@@ -39,7 +39,7 @@ public class PassionlipPainIsPleasure
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoPainIsPleasure(p, p, 1)));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoPainIsPleasure(p, p)));
     }
 
     @Override

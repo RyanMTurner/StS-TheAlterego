@@ -40,10 +40,10 @@ public class PassionlipClassAdvantage
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (!this.upgraded) {
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoClassAdvantageLite(p, p, 1)));
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoClassAdvantageLite(p, p)));
         }
         else {
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoClassAdvantage(p, p, 1)));
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoClassAdvantage(p, p)));
         }
     }
 

@@ -26,12 +26,12 @@ public class AlteregoPerceptionDisorder extends AbstractPower {
     private static final Texture tex84 = TextureLoader.getTexture("images/powers/PerceptionDisorder_84.png");
     private static final Texture tex32 = TextureLoader.getTexture("images/powers/PerceptionDisorder_32.png");
 
-    public AlteregoPerceptionDisorder(final AbstractCreature owner, final AbstractCreature source, final int amount) {
+    public AlteregoPerceptionDisorder(final AbstractCreature owner, final AbstractCreature source) {
         name = NAME;
         ID = POWER_ID;
 
         this.owner = owner;
-        this.amount = amount;
+        this.amount = -1;
         this.source = source;
 
         type = PowerType.DEBUFF;

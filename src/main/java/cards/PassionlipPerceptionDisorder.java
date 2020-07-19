@@ -39,7 +39,7 @@ public class PassionlipPerceptionDisorder
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new StrengthPower(p, this.baseMagicNumber)));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoPerceptionDisorder(p, p, 1)));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new AlteregoPerceptionDisorder(p, p)));
     }
 
     @Override
