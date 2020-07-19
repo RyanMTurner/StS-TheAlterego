@@ -256,5 +256,10 @@
   "alterego_mod:Lingerie": {
     "NAME": "Lingerie",
     "DESCRIPTION": "Enter alterego_mod:Parvati. NL Deal !D! damage. NL Gain 1 Vulnerable."
+  },
+  "alterego_mod:Belle": {
+    "NAME": "Belle",
+    "DESCRIPTION": "Fleeting. NL Deal damage equal to your gold.",
+    "UPGRADE_DESCRIPTION": "Fleeting. NL Deal damage equal to your gold. NL Startup: Gain 5 gold."
   }
 }
