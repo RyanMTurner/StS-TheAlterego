@@ -240,5 +240,9 @@
     "NAME": "Palingenesis",
     "DESCRIPTION": "Gain !M! Strength.",
     "EXTENDED_DESCRIPTION": [" NL Gain ", " Dexterity.", " energy.", " NL Lose ", " HP."]
+  },
+  "alterego_mod:BustOut": {
+    "NAME": "Bust Out",
+    "DESCRIPTION": "Lose all Block, heal that much. NL Lose all Dexterity, gain that much Strength."
   }
 }
