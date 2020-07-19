@@ -284,5 +284,10 @@
   "alterego_mod:MaintainEyeContact": {
     "NAME": "Maintain Eye Contact",
     "DESCRIPTION": "Enemy loses 3 Strength for !M! turns."
+  },
+  "alterego_mod:Valentines": {
+    "NAME": "Valentine's",
+    "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Clear a random debuff.",
+    "UPGRADE_DESCRIPTION": "Grave. NL Enter alterego_mod:Brynhildr. NL Clear ALL debuffs."
   }
 }
