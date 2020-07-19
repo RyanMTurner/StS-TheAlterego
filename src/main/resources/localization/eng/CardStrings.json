@@ -275,5 +275,10 @@
   "alterego_mod:TrashNCrash": {
     "NAME": "Trash & Crash",
     "DESCRIPTION": "Exhaust any number of cards, gain !M! Strength for each card exhausted."
+  },
+  "alterego_mod:DestructionOfProperty": {
+    "NAME": "Destruction of Property",
+    "DESCRIPTION": "Remove a random power from all combatants.",
+    "UPGRADE_DESCRIPTION": "Remove X random powers from all combatants."
   }
 }
