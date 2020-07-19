@@ -261,5 +261,10 @@
     "NAME": "Belle",
     "DESCRIPTION": "Fleeting. NL Deal damage equal to your gold.",
     "UPGRADE_DESCRIPTION": "Fleeting. NL Deal damage equal to your gold. NL Startup: Gain 5 gold."
+  },
+  "alterego_mod:Bloomers": {
+    "NAME": "Bloomers",
+    "DESCRIPTION": "Exhaust a card. NL If it was a curse or status, draw 2.",
+    "UPGRADE_DESCRIPTION": "Exhaust up to 2 cards. NL Draw 2 for each curse or status exhausted."
   }
 }

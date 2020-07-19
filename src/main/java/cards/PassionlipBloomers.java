@@ -1,60 +1,64 @@
 package cards;
 
+import actions.AlteregoBloomersAction;
+import actions.AlteregoBoobPocketAction;
+import alterego_mod.AlteregoMod;
+import com.evacipated.cardcrawl.mod.stslib.actions.common.MoveCardsAction;
+import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.StartupCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
+import com.megacrit.cardcrawl.actions.common.ExhaustAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.tempCards.ThroughViolence;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.DexterityPower;
-import com.megacrit.cardcrawl.powers.VulnerablePower;
+import com.megacrit.cardcrawl.powers.*;
 
 import basemod.abstracts.CustomCard;
-import stances.PassionlipDurga;
-import stances.PassionlipParvati;
+
+import java.util.ArrayList;
+import java.util.function.Predicate;
 
 import static alterego_mod.AbstractCardEnum.Passionlip_Purple;
 
-public class PassionlipLingerie
+public class PassionlipBloomers
         extends CustomCard {
-    public static final String ID = "alterego_mod:Lingerie";
+    public static final String ID = "alterego_mod:Bloomers";
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     // Get object containing the strings that are displayed in the game.
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    public static final String IMG_PATH = "images/cards/Lingerie.png";
+    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
+    public static final String IMG_PATH = "images/cards/Bloomers.png";
     private static final int COST = 1;
 
-    public PassionlipLingerie() {
+    public PassionlipBloomers() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
-                CardType.ATTACK, Passionlip_Purple,
-                CardRarity.UNCOMMON, CardTarget.ENEMY);
-        this.baseDamage = 8;
+                CardType.SKILL, Passionlip_Purple,
+                CardRarity.UNCOMMON, CardTarget.SELF);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToTop(new ChangeStanceAction(PassionlipParvati.STANCE_ID));
-        AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
-                new DamageInfo(p, this.damage, this.damageTypeForTurn),
-                AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new VulnerablePower(p, 1, false), 1));
+        this.addToBot(new AlteregoBloomersAction(this));
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new PassionlipLingerie();
+        return new PassionlipBloomers();
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeDamage(3);
+            this.rawDescription = UPGRADE_DESCRIPTION;
+            this.initializeDescription();
         }
     }
 }
