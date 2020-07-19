@@ -266,5 +266,10 @@
     "NAME": "Bloomers",
     "DESCRIPTION": "Exhaust a card. NL If it was a curse or status, draw 2.",
     "UPGRADE_DESCRIPTION": "Exhaust up to 2 cards. NL Draw 2 for each curse or status exhausted."
+  },
+  "alterego_mod:Bunnysuit": {
+    "NAME": "Bunnysuit",
+    "DESCRIPTION": "Discard five cards, draw that many.",
+    "UPGRADE_DESCRIPTION": "Discard up to five cards, draw that many."
   }
 }
