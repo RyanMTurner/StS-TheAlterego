@@ -252,5 +252,9 @@
   "alterego_mod:Nekomimi": {
     "NAME": "Nekomimi",
     "DESCRIPTION": "At the start of each of your turns, gain 1 Dexterity."
+  },
+  "alterego_mod:Lingerie": {
+    "NAME": "Lingerie",
+    "DESCRIPTION": "Enter alterego_mod:Parvati. NL Deal !D! damage. NL Gain 1 Vulnerable."
   }
 }
