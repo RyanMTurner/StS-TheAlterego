@@ -248,5 +248,9 @@
   "alterego_mod:GachaTicket": {
     "NAME": "Gacha Ticket",
     "DESCRIPTION": "The next time you play a card of a random type this turn, it is played twice."
+  },
+  "alterego_mod:Nekomimi": {
+    "NAME": "Nekomimi",
+    "DESCRIPTION": "At the start of each of your turns, gain 1 Dexterity."
   }
 }

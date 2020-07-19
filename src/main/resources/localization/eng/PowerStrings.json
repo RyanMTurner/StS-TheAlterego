@@ -60,5 +60,12 @@
     "DESCRIPTIONS": [
       "Slow starts at 5."
     ]
+  },
+  "alterego_mod:NekomimiPower": {
+    "NAME": "Nekomimi",
+    "DESCRIPTIONS": [
+      "At the start of each turn, gain ",
+      " Dexterity."
+    ]
   }
 }
