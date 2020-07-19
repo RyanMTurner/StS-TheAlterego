@@ -271,5 +271,9 @@
     "NAME": "Bunnysuit",
     "DESCRIPTION": "Discard five cards, draw that many.",
     "UPGRADE_DESCRIPTION": "Discard up to five cards, draw that many."
+  },
+  "alterego_mod:TrashNCrash": {
+    "NAME": "Trash & Crash",
+    "DESCRIPTION": "Exhaust any number of cards, gain !M! Strength for each card exhausted."
   }
 }
