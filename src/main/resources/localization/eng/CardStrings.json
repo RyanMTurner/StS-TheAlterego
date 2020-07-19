@@ -280,5 +280,9 @@
     "NAME": "Destruction of Property",
     "DESCRIPTION": "Remove a random power from all combatants.",
     "UPGRADE_DESCRIPTION": "Remove X random powers from all combatants."
+  },
+  "alterego_mod:MaintainEyeContact": {
+    "NAME": "Maintain Eye Contact",
+    "DESCRIPTION": "Enemy loses 3 Strength for !M! turns."
   }
 }

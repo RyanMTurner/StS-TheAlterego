@@ -67,5 +67,13 @@
       "At the start of each turn, gain ",
       " Dexterity."
     ]
+  },
+  "alterego_mod:GainStrengthLaterPower": {
+    "NAME": "Gain Strength Later",
+    "DESCRIPTIONS": [
+      "Gains 3 Strength after ",
+      " turn.",
+      " turns."
+    ]
   }
 }
