@@ -303,5 +303,9 @@
   "alterego_mod:Rake": {
     "NAME": "Rake",
     "DESCRIPTION": "Deal !D! damage. NL Enemy loses 1 Strength and Dexterity at the end of each of its turns."
+  },
+  "alterego_mod:VirginLaserPalladion": {
+    "NAME": "Virgin Laser - Palladion",
+    "DESCRIPTION": "Deal !M! damage, ignoring all modifiers and impediments."
   }
 }
