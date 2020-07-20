@@ -294,5 +294,10 @@
     "NAME": "Breast Valley",
     "DESCRIPTION": "Whenever a card is exhausted, gain X+ !M! Block.",
     "UPGRADE_DESCRIPTION": "Whenever a card is exhausted, gain X+ !M! Block. NL Refund 1."
+  },
+  "alterego_mod:Alter": {
+    "NAME": "Alter",
+    "DESCRIPTION": "Flip your HP. NL Take 50% more damage this combat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Flip your HP. NL Take 25% more damage this combat. NL Exhaust."
   }
 }

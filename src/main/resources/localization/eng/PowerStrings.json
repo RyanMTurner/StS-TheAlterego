@@ -82,5 +82,17 @@
       "Whenever a card is exhausted, gain ",
       " Block."
     ]
+  },
+  "alterego_mod:AlterPower": {
+    "NAME": "Altered",
+    "DESCRIPTIONS": [
+      "Take 50% more damage."
+    ]
+  },
+  "alterego_mod:AlterLitePower": {
+    "NAME": "Altered",
+    "DESCRIPTIONS": [
+      "Take 25% more damage."
+    ]
   }
 }
