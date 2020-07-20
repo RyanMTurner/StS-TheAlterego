@@ -322,5 +322,10 @@
     "NAME": "Weigh",
     "DESCRIPTION": "Deal damage equal to your breasts' combined weight in kilograms.",
     "UPGRADE_DESCRIPTION": "Deal damage equal to your breasts' combined weight in pounds."
+  },
+  "alterego_mod:Santa": {
+    "NAME": "Santa",
+    "DESCRIPTION": "Exhaust. NL Add a random card to your hand. NL It's common if X=1. NL It's uncommon if X=2. NL It's rare if X=3+. NL Refund X-3.",
+    "UPGRADE_DESCRIPTION": "Exhaust. NL Add a random card to your hand. It costs 1 less until played. NL It's common if X=1. NL It's uncommon if X=2. NL It's rare if X=3+. NL Refund X-3."
   }
 }
