@@ -327,5 +327,9 @@
     "NAME": "Santa",
     "DESCRIPTION": "Exhaust. NL Add a random card to your hand. NL It's common if X=1. NL It's uncommon if X=2. NL It's rare if X=3+. NL Refund X-3.",
     "UPGRADE_DESCRIPTION": "Exhaust. NL Add a random card to your hand. It costs 1 less until played. NL It's common if X=1. NL It's uncommon if X=2. NL It's rare if X=3+. NL Refund X-3."
+  },
+  "alterego_mod:Support": {
+    "NAME": "Support",
+    "DESCRIPTION": "Every time you play an Attack this turn, gain !M! Dexterity."
   }
 }
