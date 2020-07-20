@@ -94,5 +94,12 @@
     "DESCRIPTIONS": [
       "Take 25% more damage."
     ]
+  },
+  "alterego_mod:RakePower": {
+    "NAME": "Raked",
+    "DESCRIPTIONS": [
+      "At the end of each turn, lose ",
+      " Strength and Dexterity."
+    ]
   }
 }

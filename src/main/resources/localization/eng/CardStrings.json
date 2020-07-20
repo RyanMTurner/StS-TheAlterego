@@ -299,5 +299,9 @@
     "NAME": "Alter",
     "DESCRIPTION": "Flip your HP. NL Take 50% more damage this combat. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Flip your HP. NL Take 25% more damage this combat. NL Exhaust."
+  },
+  "alterego_mod:Rake": {
+    "NAME": "Rake",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy loses 1 Strength and Dexterity at the end of each of its turns."
   }
 }
