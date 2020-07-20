@@ -169,7 +169,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
         retVal.add("alterego_mod:BigMeatyClaws");
         retVal.add("alterego_mod:BrynhildrsRune");
 
-        //retVal.add("alterego_mod:VirginLaserPalladion");
+        //retVal.add("alterego_mod:Palingenesis");
         return retVal;
     }
 

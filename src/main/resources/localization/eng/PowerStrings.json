@@ -101,5 +101,11 @@
       "At the end of each turn, lose ",
       " Strength and Dexterity."
     ]
+  },
+  "alterego_mod:InsideBaseballPower": {
+    "NAME": "Inside Baseball",
+    "DESCRIPTIONS": [
+      "The next non-boss monster to attack you is out."
+    ]
   }
 }

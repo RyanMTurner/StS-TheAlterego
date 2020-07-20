@@ -94,7 +94,11 @@ public class PassionlipPalingenesis
             newDescription += EXTENDED_DESCRIPTION[0] + dexAmt + EXTENDED_DESCRIPTION[1];
         }
         if (energyAmt > 0) {
-            newDescription += EXTENDED_DESCRIPTION[0] + energyAmt + EXTENDED_DESCRIPTION[2];
+            newDescription += EXTENDED_DESCRIPTION[0];
+            for(int i = 0; i < energyAmt; i++) {
+                newDescription += "[E] ";
+            }
+            newDescription += ".";
         }
         if (damageAmt > 0) {
             newDescription += EXTENDED_DESCRIPTION[3] + damageAmt + EXTENDED_DESCRIPTION[4];

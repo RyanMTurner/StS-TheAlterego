@@ -29,6 +29,7 @@ public class PassionlipIndependentAction
     // Get object containing the strings that are displayed in the game.
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
+    public static final String[] EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
     public static final String IMG_PATH = "images/cards/IndependentAction.png";
     private static final int COST = 1;
 
@@ -38,12 +39,14 @@ public class PassionlipIndependentAction
                 CardRarity.UNCOMMON, CardTarget.SELF);
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
+        setDescription();
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new GainEnergyAction(this.magicNumber));
         this.upgradeMagicNumber(1);
+        setDescription();
     }
 
     @Override
@@ -58,6 +61,17 @@ public class PassionlipIndependentAction
         if (!this.upgraded) {
             this.upgradeName();
             this.upgradeMagicNumber(1);
+            setDescription();
         }
+    }
+
+    private void setDescription() {
+        String newDescription = DESCRIPTION;
+        for(int i = 0; i < this.magicNumber; i++) {
+            newDescription += "[E] ";
+        }
+        newDescription += EXTENDED_DESCRIPTION[0];
+        this.rawDescription = newDescription;
+        this.initializeDescription();
     }
 }
