@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6f6984d3-7c95-4285-bfdb-92fe00399116" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alterego_mod/AlteregoMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alterego_mod/AlteregoMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alterego_mod/TheAlteregoCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alterego_mod/TheAlteregoCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipClassAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipClassAdvantage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipPainIsPleasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipPainIsPleasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipPerceptionDisorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipPerceptionDisorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoClassAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoClassAdvantage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoClassAdvantageLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoClassAdvantageLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoPainIsPleasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoPainIsPleasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoPerceptionDisorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoPerceptionDisorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishmentUpgraded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishmentUpgraded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/cards/_Crop.pxf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/cards/_Crop.pxf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/localization/eng/CardStrings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/localization/eng/CardStrings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/localization/eng/PowerStrings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/localization/eng/PowerStrings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,25 +66,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595130483520" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1595198621994">
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1595203171309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595198621994" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595203171309" />
     <state width="1877" height="270" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1595198621994">
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1595203171308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.center/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595198621994" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595203171308" />
     <state width="1877" height="270" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1595198621994">
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1595203171308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.left/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595198621994" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595203171308" />
     <state width="1877" height="270" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1595198621994">
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1595203171309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.right/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595198621994" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595203171309" />
     <state width="1877" height="270" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595182366167">
       <screen x="0" y="0" width="1920" height="1040" />

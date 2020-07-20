@@ -289,5 +289,10 @@
     "NAME": "Valentine's",
     "DESCRIPTION": "Enter alterego_mod:Brynhildr. NL Clear a random debuff.",
     "UPGRADE_DESCRIPTION": "Grave. NL Enter alterego_mod:Brynhildr. NL Clear ALL debuffs."
+  },
+  "alterego_mod:BreastValley": {
+    "NAME": "Breast Valley",
+    "DESCRIPTION": "Whenever a card is exhausted, gain X+ !M! Block.",
+    "UPGRADE_DESCRIPTION": "Whenever a card is exhausted, gain X+ !M! Block. NL Refund 1."
   }
 }

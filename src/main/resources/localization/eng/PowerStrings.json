@@ -75,5 +75,12 @@
       " turn.",
       " turns."
     ]
+  },
+  "alterego_mod:BreastValleyPower": {
+    "NAME": "Breast Valley",
+    "DESCRIPTIONS": [
+      "Whenever a card is exhausted, gain ",
+      " Block."
+    ]
   }
 }
