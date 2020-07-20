@@ -313,5 +313,9 @@
     "NAME": "Inside Baseball",
     "DESCRIPTION": "The first non-boss enemy to attack you this turn flees with 30 gold.",
     "UPGRADE_DESCRIPTION": "The first non-boss enemy to attack you flees with 30 gold."
+  },
+  "alterego_mod:SideboobHour": {
+    "NAME": "The Sideboob Hour",
+    "DESCRIPTION": "Deal damage equal to your run time in minutes."
   }
 }
