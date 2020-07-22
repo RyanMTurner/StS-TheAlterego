@@ -331,5 +331,10 @@
   "alterego_mod:Support": {
     "NAME": "Support",
     "DESCRIPTION": "Every time you play an Attack this turn, gain !M! Dexterity."
+  },
+  "alterego_mod:Rip": {
+    "NAME": "Ripped",
+    "DESCRIPTION": "Autoplay. NL Gain 1 Strength and 1 Frail.",
+    "UPGRADE_DESCRIPTION": "Autoplay. NL Gain 1 Strength and 1 Frail. NL Your next Attack deals 5 additional damage."
   }
 }
