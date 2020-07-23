@@ -336,5 +336,14 @@
     "NAME": "Ripped",
     "DESCRIPTION": "Autoplay. NL Gain 1 Strength and 1 Frail.",
     "UPGRADE_DESCRIPTION": "Autoplay. NL Gain 1 Strength and 1 Frail. NL Your next Attack deals 5 additional damage."
+  },
+  "alterego_mod:Crossover": {
+    "NAME": "Crossover",
+    "DESCRIPTION": "Add a random card from another character to your hand."
+  },
+  "alterego_mod:Table": {
+    "NAME": "Rest on Table",
+    "DESCRIPTION": "Give a card Retain until the end of combat.",
+    "UPGRADE_DESCRIPTION": "Give a card Retain until the end of combat. The card costs 1 less each time it is Retained."
   }
 }

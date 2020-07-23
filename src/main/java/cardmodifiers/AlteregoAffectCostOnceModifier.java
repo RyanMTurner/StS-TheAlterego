@@ -14,7 +14,9 @@ public class AlteregoAffectCostOnceModifier extends AbstractCardModifier {
 
     @Override
     public void onInitialApplication(AbstractCard card) {
-        card.updateCost(additionalCost);
+        if (card.cost > -1) {
+            card.updateCost(additionalCost);
+        }
     }
 
     @Override
@@ -24,7 +26,9 @@ public class AlteregoAffectCostOnceModifier extends AbstractCardModifier {
 
     @Override
     public void onRemove(AbstractCard card) {
-        card.updateCost(-additionalCost);
+        if (card.cost > -1) {
+            card.updateCost(-additionalCost);
+        }
     }
 
     @Override
