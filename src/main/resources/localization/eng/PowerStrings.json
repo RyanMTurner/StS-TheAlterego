@@ -114,5 +114,19 @@
       "Every time you play an Attack, gain ",
       " Dexterity."
     ]
+  },
+  "alterego_mod:SuperDuperMasochismPower": {
+    "NAME": "Super Duper Masochism",
+    "DESCRIPTIONS": [
+      "Gain ",
+      " Strength for every 10 damage you take."
+    ]
+  },
+  "alterego_mod:SuperDuperMasochismPowerUpgraded": {
+    "NAME": "Super Duper Masochism",
+    "DESCRIPTIONS": [
+      "Gain ",
+      " Strength for every 5 damage you take."
+    ]
   }
 }

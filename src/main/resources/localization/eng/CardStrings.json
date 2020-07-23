@@ -345,5 +345,9 @@
     "NAME": "Rest on Table",
     "DESCRIPTION": "Give a card Retain until the end of combat.",
     "UPGRADE_DESCRIPTION": "Give a card Retain until the end of combat. The card costs 1 less each time it is Retained."
+  },
+  "alterego_mod:SuperDuperMasochism": {
+    "NAME": "Super Duper Masochism",
+    "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain 1 Strength for every !M! damage you take this turn."
   }
 }
