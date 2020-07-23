@@ -183,7 +183,7 @@
   },
   "alterego_mod:Smother": {
     "NAME": "Smother",
-    "DESCRIPTION": "Apply !M! Constricted."
+    "DESCRIPTION": "Apply !M! alterego_mod:Constricted."
   },
   "alterego_mod:Stockings": {
     "NAME": "Stockings",
@@ -349,5 +349,9 @@
   "alterego_mod:SuperDuperMasochism": {
     "NAME": "Super Duper Masochism",
     "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain 1 Strength for every !M! damage you take this turn."
+  },
+  "alterego_mod:Antipathy": {
+    "NAME": "Antipathy",
+    "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain !M! alterego_mod:temp_invincible."
   }
 }

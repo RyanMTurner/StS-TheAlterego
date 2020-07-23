@@ -22,5 +22,17 @@
       "Swipe", "swipe"
     ],
     "DESCRIPTION": "Draw the topmost qualifying card from your draw pile. Doesn't shuffle."
+  },
+  {
+    "NAMES": [
+      "Constricted", "constricted"
+    ],
+    "DESCRIPTION": "At the end of your turn, take damage."
+  },
+  {
+    "NAMES": [
+      "Temp. Invincible", "temp. invincible", "temp_invincible"
+    ],
+    "DESCRIPTION": "For one turn, you can't lose more HP than indicated."
   }
 ]
