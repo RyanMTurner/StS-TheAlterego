@@ -353,5 +353,10 @@
   "alterego_mod:Antipathy": {
     "NAME": "Antipathy",
     "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain !M! alterego_mod:temp_invincible."
+  },
+  "alterego_mod:STier": {
+    "NAME": "S Tier",
+    "DESCRIPTION": "Add a random S Tier (see SpireSpy) card to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add two random S Tier (see SpireSpy) cards to your hand. NL Exhaust."
   }
 }

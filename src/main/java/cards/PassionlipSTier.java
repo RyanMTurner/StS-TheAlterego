@@ -2,6 +2,7 @@ package cards;
 
 import actions.AlteregoClonesAction;
 import actions.AlteregoCrossoverAction;
+import actions.AlteregoSTierAction;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.unique.DualWieldAction;
@@ -20,37 +21,48 @@ import com.megacrit.cardcrawl.powers.WeakPower;
 
 import static alterego_mod.AbstractCardEnum.Passionlip_Purple;
 
-public class PassionlipCrossover
+public class PassionlipSTier
         extends CustomCard {
-    public static final String ID = "alterego_mod:Crossover";
+    public static final String ID = "alterego_mod:STier";
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     // Get object containing the strings that are displayed in the game.
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    public static final String IMG_PATH = "images/cards/Crossover.png";
+    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
+    public static final String IMG_PATH = "images/cards/STier.png";
     private static final int COST = 1;
 
-    public PassionlipCrossover() {
+    public PassionlipSTier() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.SKILL, Passionlip_Purple,
-                CardRarity.UNCOMMON, CardTarget.SELF);
+                CardRarity.RARE, CardTarget.SELF);
+        this.exhaust = true;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new AlteregoCrossoverAction());
+        this.addToBot(new AlteregoSTierAction(this.upgraded));
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new PassionlipCrossover();
+        return new PassionlipSTier();
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBaseCost(0);
+            this.rawDescription = UPGRADE_DESCRIPTION;
+            this.initializeDescription();
         }
+    }
+
+    @Override
+    protected void upgradeName() {
+        ++this.timesUpgraded;
+        this.upgraded = true;
+        this.name = "S" + this.name;
+        this.initializeTitle();
     }
 }
