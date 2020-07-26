@@ -29,13 +29,13 @@ public class PassionlipBeGentle
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String IMG_PATH = "images/cards/BeGentle.png";
-    private static final int COST = 1;
+    private static final int COST = 2;
 
     public PassionlipBeGentle() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.SKILL, Passionlip_Purple,
                 CardRarity.UNCOMMON, CardTarget.ENEMY);
-        this.baseMagicNumber = 5;
+        this.baseMagicNumber = 10;
     }
 
     @Override
@@ -53,7 +53,7 @@ public class PassionlipBeGentle
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(-2);
+            this.upgradeMagicNumber(-3);
         }
     }
 }

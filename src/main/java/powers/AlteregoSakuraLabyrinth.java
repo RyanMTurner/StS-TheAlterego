@@ -33,7 +33,7 @@ public class AlteregoSakuraLabyrinth extends AbstractPower {
         this.amount = amount;
         this.source = source;
 
-        type = PowerType.BUFF;
+        type = PowerType.DEBUFF;
         isTurnBased = false;
 
         // We load those textures here.

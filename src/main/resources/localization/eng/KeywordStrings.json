@@ -34,5 +34,11 @@
       "Temp. Invincible", "temp. invincible", "temp_invincible"
     ],
     "DESCRIPTION": "For one turn, you can't lose more HP than indicated."
+  },
+  {
+    "NAMES": [
+      "Envenom", "envenom"
+    ],
+    "DESCRIPTION": "Apply Poison whenever you deal unblocked attack damage."
   }
 ]
