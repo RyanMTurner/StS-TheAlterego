@@ -358,5 +358,10 @@
     "NAME": "S Tier",
     "DESCRIPTION": "Add a random S Tier (see SpireSpy) card to your hand. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Add two random S Tier (see SpireSpy) cards to your hand. NL Exhaust."
+  },
+  "alterego_mod:Exercise": {
+    "NAME": "Exercise",
+    "DESCRIPTION": "Enter alterego_mod:Durga. NL Deal 5 damage. NL If you have positive Strength, play this card once more.",
+    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. NL Deal 5 damage. NL If you have positive Strength or are already in alterego_mod:Durga, play this card once more."
   }
 }
