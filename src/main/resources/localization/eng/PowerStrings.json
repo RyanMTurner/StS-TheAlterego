@@ -153,5 +153,11 @@
     "DESCRIPTIONS": [
       "Dies when any enemy dies."
     ]
+  },
+  "alterego_mod:RingBreakPower": {
+    "NAME": "Ring Break",
+    "DESCRIPTIONS": [
+      "Whenever your Block is broken, your next attack deals additional damage equal to the unblocked damage you took."
+    ]
   }
 }

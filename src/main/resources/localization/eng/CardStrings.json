@@ -377,5 +377,9 @@
     "NAME": "Vow",
     "DESCRIPTION": "Target dies when any enemy dies. NL Purge.",
     "UPGRADE_DESCRIPTION": "Target dies when any enemy dies. NL Exhaust."
+  },
+  "alterego_mod:RingBreak": {
+    "NAME": "Ring Break",
+    "DESCRIPTION": "Whenever your block is broken, your next attack deals additional damage equal to the unblocked damage you took."
   }
 }
