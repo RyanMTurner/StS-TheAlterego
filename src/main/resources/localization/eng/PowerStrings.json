@@ -128,5 +128,24 @@
       "Gain ",
       " Strength for every 5 damage you take."
     ]
+  },
+  "alterego_mod:AlterEgoPower": {
+    "NAME": "Alter-Ego",
+    "DESCRIPTIONS": [
+      "On odd-numbered turns, Attacks cost ",
+      " less. NL On even-numbered turns, Skills cost ",
+      " less. NL (It's turn ",
+      " stack goes into effect next turn)",
+      " stacks go into effect next turn)"
+    ]
+  },
+  "alterego_mod:AlterEgoPowerUpgraded": {
+    "NAME": "Alter-Ego",
+    "DESCRIPTIONS": [
+      "Attacks and Skills cost ",
+      " less.",
+      " stack goes into effect next turn)",
+      " stacks go into effect next turn)"
+    ]
   }
 }

@@ -367,5 +367,10 @@
   "alterego_mod:Undulate": {
     "NAME": "Undulate",
     "DESCRIPTION": "Gain !B! Block. NL Whenever you change Stances, return this from the Discard Pile to your hand."
+  },
+  "alterego_mod:AlterEgo": {
+    "NAME": "Alter-Ego",
+    "DESCRIPTION": "Starting next turn: NL Attacks cost 1 less on odd-numbered turns; NL Skills cost 1 less on even-numbered turns.",
+    "UPGRADE_DESCRIPTION": "Starting next turn: NL Attacks and Skills cost 1 less."
   }
 }

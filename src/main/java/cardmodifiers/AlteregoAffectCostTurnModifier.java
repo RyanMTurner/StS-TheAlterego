@@ -4,11 +4,11 @@ import alterego_mod.AlteregoMod;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import basemod.abstracts.AbstractCardModifier;
 
-public class AlteregoAffectCostOnceModifier extends AbstractCardModifier {
+public class AlteregoAffectCostTurnModifier extends AbstractCardModifier {
 
     int additionalCost = 0;
 
-    public AlteregoAffectCostOnceModifier(int additionalCost) {
+    public AlteregoAffectCostTurnModifier(int additionalCost) {
         this.additionalCost = additionalCost;
     }
 
@@ -23,7 +23,7 @@ public class AlteregoAffectCostOnceModifier extends AbstractCardModifier {
     }
 
     @Override
-    public boolean removeOnCardPlayed(AbstractCard card) {
+    public boolean removeAtEndOfTurn(AbstractCard card) {
         return true;
     }
 
