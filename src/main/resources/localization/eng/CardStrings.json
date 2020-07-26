@@ -362,6 +362,10 @@
   "alterego_mod:Exercise": {
     "NAME": "Exercise",
     "DESCRIPTION": "Enter alterego_mod:Durga. NL Deal 5 damage. NL If you have positive Strength, play this card once more.",
-    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. NL Deal 5 damage. NL If you have positive Strength or are already in alterego_mod:Durga, play this card once more."
+    "UPGRADE_DESCRIPTION": "Enter alterego_mod:Durga. NL Deal 5 damage. NL If you have positive Strength or were already in alterego_mod:Durga, play this card once more."
+  },
+  "alterego_mod:Undulate": {
+    "NAME": "Undulate",
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you change Stances, return this from the Discard Pile to your hand."
   }
 }

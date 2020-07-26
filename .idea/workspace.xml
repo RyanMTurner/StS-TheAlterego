@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6984d3-7c95-4285-bfdb-92fe00399116" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipUndulate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/Undulate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/Undulate_p.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alterego_mod/AlteregoMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alterego_mod/AlteregoMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alterego_mod/TheAlteregoCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alterego_mod/TheAlteregoCharacter.java" afterDir="false" />
@@ -68,25 +71,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595267275845" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1595785321045">
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1595788129380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595785321045" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595788129380" />
     <state width="1877" height="270" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1595785321044">
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1595788129380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.center/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595785321044" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595788129380" />
     <state width="1877" height="270" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1595785321044">
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1595788129380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.left/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595785321044" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595788129380" />
     <state width="1877" height="270" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1595785321045">
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1595788129380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.right/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595785321045" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right/-1360.0.1360.728/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595788129380" />
     <state width="1877" height="270" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040/-1360.0.1360.728@0.0.1920.1040" timestamp="1594952913468" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595182366167">
       <screen x="0" y="0" width="1920" height="1040" />
