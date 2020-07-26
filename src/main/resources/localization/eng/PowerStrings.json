@@ -147,5 +147,11 @@
       " stack goes into effect next turn)",
       " stacks go into effect next turn)"
     ]
+  },
+  "alterego_mod:VowPower": {
+    "NAME": "Avowen",
+    "DESCRIPTIONS": [
+      "Dies when any enemy dies."
+    ]
   }
 }

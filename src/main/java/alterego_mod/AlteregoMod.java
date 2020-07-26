@@ -154,6 +154,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
         BaseMod.addCard(new PassionlipExercise());
         BaseMod.addCard(new PassionlipUndulate());
         BaseMod.addCard(new PassionlipAlterEgo());
+        BaseMod.addCard(new PassionlipVow());
 
         //UnlockTracker.unlockCard("alterego_mod:RocketPunch");
     }

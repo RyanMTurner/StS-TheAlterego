@@ -372,5 +372,10 @@
     "NAME": "Alter-Ego",
     "DESCRIPTION": "Starting next turn: NL Attacks cost 1 less on odd-numbered turns; NL Skills cost 1 less on even-numbered turns.",
     "UPGRADE_DESCRIPTION": "Starting next turn: NL Attacks and Skills cost 1 less."
+  },
+  "alterego_mod:Vow": {
+    "NAME": "Vow",
+    "DESCRIPTION": "Target dies when any enemy dies. NL Purge.",
+    "UPGRADE_DESCRIPTION": "Target dies when any enemy dies. NL Exhaust."
   }
 }
