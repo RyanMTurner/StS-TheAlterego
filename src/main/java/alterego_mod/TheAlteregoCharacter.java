@@ -115,7 +115,7 @@ public class TheAlteregoCharacter extends CustomPlayer {
 
     @Override
     public String getCustomModeCharacterButtonSoundKey() {
-        return null;
+        return "SELECT_WATCHER";
     }
 
     @Override
@@ -140,7 +140,14 @@ public class TheAlteregoCharacter extends CustomPlayer {
 
     @Override
     public AbstractGameAction.AttackEffect[] getSpireHeartSlashEffect() {
-        return new AbstractGameAction.AttackEffect[0];
+        AbstractGameAction.AttackEffect[] array = new AbstractGameAction.AttackEffect[] {
+                AbstractGameAction.AttackEffect.SLASH_DIAGONAL,
+                AbstractGameAction.AttackEffect.SLASH_HORIZONTAL,
+                AbstractGameAction.AttackEffect.SLASH_DIAGONAL,
+                AbstractGameAction.AttackEffect.SLASH_VERTICAL
+        };
+
+        return array;
     }
 
     @Override
