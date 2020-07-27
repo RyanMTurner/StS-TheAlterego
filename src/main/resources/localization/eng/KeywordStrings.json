@@ -30,8 +30,10 @@
     "DESCRIPTION": "At the end of your turn, take damage."
   },
   {
+    "PROPER_NAME": "Temp.\u00a0Invincible",
     "NAMES": [
-      "Temp. Invincible", "temp_invincible"
+      "Temp.\u00a0Invincible",
+      "temp.\u00a0invincible"
     ],
     "DESCRIPTION": "For one turn, you can't lose more HP than indicated."
   },
@@ -42,8 +44,10 @@
     "DESCRIPTION": "Apply Poison whenever you deal unblocked attack damage."
   },
   {
+    "PROPER_NAME": "S\u00a0Tier",
     "NAMES": [
-      "S Tier", "s_tier"
+      "S\u00a0Tier",
+      "s\u00a0tier"
     ],
     "DESCRIPTION": "#yFeed, #yImmolate, #yAdrenaline, #yWraith #yForm, #yWell #yLaid #yPlans, #ySeek, #yBlasphemy, #ySpirit #yShield, #yLesson #yLearned."
   }

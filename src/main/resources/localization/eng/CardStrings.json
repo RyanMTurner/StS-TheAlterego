@@ -352,12 +352,12 @@
   },
   "alterego_mod:Antipathy": {
     "NAME": "Antipathy",
-    "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain !M! alterego_mod:temp_invincible."
+    "DESCRIPTION": "Enter alterego_mod:Parvati. NL Gain !M! alterego_mod:Temp.\u00a0Invincible."
   },
   "alterego_mod:STier": {
     "NAME": "S Tier",
-    "DESCRIPTION": "Add a random alterego_mod:s_tier card to your hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add two random alterego_mod:s_tier cards to your hand. NL Exhaust."
+    "DESCRIPTION": "Add a random alterego_mod:S\u00a0Tier card to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add two random alterego_mod:S\u00a0Tier cards to your hand. NL Exhaust."
   },
   "alterego_mod:Exercise": {
     "NAME": "Exercise",
