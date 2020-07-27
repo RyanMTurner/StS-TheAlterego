@@ -37,6 +37,7 @@ public class PassionlipDustData
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.UNCOMMON, CardTarget.ENEMY);
         FleetingField.fleeting.set(this, true);
+        this.cardsToPreview = new Regret();
     }
 
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
@@ -71,6 +72,7 @@ public class PassionlipDustData
         if (!this.upgraded) {
             this.upgradeName();
             this.rawDescription = UPGRADE_DESCRIPTION;
+            this.cardsToPreview = null;
             this.initializeDescription();
         }
     }

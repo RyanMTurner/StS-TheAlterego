@@ -53,6 +53,7 @@ public class PassionlipCushion
         if (!this.upgraded) {
             this.upgradeName();
             this.rawDescription = UPGRADE_DESCRIPTION;
+            this.cardsToPreview = new PassionlipCushion();
             this.initializeDescription();
         }
     }

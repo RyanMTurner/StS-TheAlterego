@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.utility.ScryAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.curses.Regret;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -36,6 +37,7 @@ public class PassionlipBounce
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.COMMON, CardTarget.ENEMY);
         this.baseDamage = 4;
+        this.cardsToPreview = new PassionlipBounce();
     }
 
     @Override

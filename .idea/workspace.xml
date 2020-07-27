@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6f6984d3-7c95-4285-bfdb-92fe00399116" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishmentUpgraded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powers/AlteregoPunishmentUpgraded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/localization/eng/CardStrings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/localization/eng/CardStrings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipBigMeatyClaws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipBigMeatyClaws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipBounce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipBounce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipCushion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipCushion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipDiscoLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipDiscoLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/PassionlipDustData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/PassionlipDustData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

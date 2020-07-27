@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.cards.colorless.Apotheosis;
 import com.megacrit.cardcrawl.cards.purple.TalkToTheHand;
 import com.megacrit.cardcrawl.cards.red.Armaments;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
+import com.megacrit.cardcrawl.cards.tempCards.ThroughViolence;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -43,6 +44,7 @@ public class PassionlipBigMeatyClaws
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.SKILL, Passionlip_Purple,
                 CardRarity.BASIC, CardTarget.SELF);
+        this.cardsToPreview = new Shiv();
     }
 
     @Override
