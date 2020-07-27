@@ -356,8 +356,8 @@
   },
   "alterego_mod:STier": {
     "NAME": "S Tier",
-    "DESCRIPTION": "Add a random S Tier (see SpireSpy) card to your hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add two random S Tier (see SpireSpy) cards to your hand. NL Exhaust."
+    "DESCRIPTION": "Add a random alterego_mod:s_tier card to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add two random alterego_mod:s_tier cards to your hand. NL Exhaust."
   },
   "alterego_mod:Exercise": {
     "NAME": "Exercise",

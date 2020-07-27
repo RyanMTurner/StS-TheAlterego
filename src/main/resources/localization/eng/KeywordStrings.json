@@ -31,7 +31,7 @@
   },
   {
     "NAMES": [
-      "Temp. Invincible", "temp. invincible", "temp_invincible"
+      "Temp. Invincible", "temp_invincible"
     ],
     "DESCRIPTION": "For one turn, you can't lose more HP than indicated."
   },
@@ -40,5 +40,11 @@
       "Envenom", "envenom"
     ],
     "DESCRIPTION": "Apply Poison whenever you deal unblocked attack damage."
+  },
+  {
+    "NAMES": [
+      "S Tier", "s_tier"
+    ],
+    "DESCRIPTION": "#yFeed, #yImmolate, #yAdrenaline, #yWraith #yForm, #yWell #yLaid #yPlans, #ySeek, #yBlasphemy, #ySpirit #yShield, #yLesson #yLearned."
   }
 ]
