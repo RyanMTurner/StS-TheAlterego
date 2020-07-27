@@ -37,7 +37,6 @@ public class PassionlipBounce
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.COMMON, CardTarget.ENEMY);
         this.baseDamage = 4;
-        this.cardsToPreview = new PassionlipBounce();
     }
 
     @Override
