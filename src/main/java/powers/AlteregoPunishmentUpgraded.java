@@ -49,8 +49,8 @@ public class AlteregoPunishmentUpgraded extends AbstractPower {
 
     @Override
     public void stackPower(int amount) {
-        if (amount > this.amount) {
-            AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(this.amount - amount));
+        if (amount > 0) {
+            AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(amount));
         }
         super.stackPower(amount);
     }

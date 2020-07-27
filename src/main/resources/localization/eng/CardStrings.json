@@ -384,8 +384,8 @@
   },
   "alterego_mod:TrickOrTreatment": {
     "NAME": "Trick or Treatment",
-    "DESCRIPTION": "Choose between gaining !M! Regen or 1 Envenom.",
-    "UPGRADE_DESCRIPTION": "Choose between gaining !M! Regen or 2 Envenom."
+    "DESCRIPTION": "Choose between gaining !M! Regen or 1 alterego_mod:Envenom.",
+    "UPGRADE_DESCRIPTION": "Choose between gaining !M! Regen or 2 alterego_mod:Envenom."
   },
   "alterego_mod:Trick": {
     "NAME": "Trick",
