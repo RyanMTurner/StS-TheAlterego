@@ -5,5 +5,12 @@
     "DESCRIPTIONS": [
       "Gain 1 Max HP after every battle in which you took unblocked damage."
     ]
+  },
+  "alterego_mod:FleetingLove": {
+    "NAME": "Fleeting Love",
+    "FLAVOR": "Wronged by the one you loved, you close your heart off from others.",
+    "DESCRIPTIONS": [
+      "You can take a maximum of 6 damage on the first turn of combat."
+    ]
   }
 }
