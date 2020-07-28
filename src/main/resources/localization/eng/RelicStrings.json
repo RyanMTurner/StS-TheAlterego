@@ -12,5 +12,12 @@
     "DESCRIPTIONS": [
       "You can take a maximum of 6 damage on the first turn of combat."
     ]
+  },
+  "alterego_mod:SomeoneToFightFor": {
+    "NAME": "Someone to Fight For",
+    "FLAVOR": "Thinking about your lover waiting for you is really motivating!",
+    "DESCRIPTIONS": [
+      "Start combat in a random Alterego #yStance."
+    ]
   }
 }

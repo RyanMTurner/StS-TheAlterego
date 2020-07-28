@@ -14,8 +14,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.localization.RelicStrings;
 import com.megacrit.cardcrawl.localization.StanceStrings;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
-import relics.FleetingLoveRelic;
-import relics.MasochisticConstitutionRelic;
+import relics.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -72,6 +71,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
     public void receiveEditRelics() {
         BaseMod.addRelicToCustomPool(new MasochisticConstitutionRelic(), Passionlip_Purple);
         BaseMod.addRelicToCustomPool(new FleetingLoveRelic(), Passionlip_Purple);
+        BaseMod.addRelicToCustomPool(new SomeoneToFightForRelic(), Passionlip_Purple);
     }
 
     @Override
