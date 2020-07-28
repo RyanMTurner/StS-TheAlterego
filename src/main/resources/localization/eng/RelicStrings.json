@@ -19,5 +19,12 @@
     "DESCRIPTIONS": [
       "Start combat in a random Alterego #yStance."
     ]
+  },
+  "alterego_mod:SistersRibbon": {
+    "NAME": "Sister's Ribbon",
+    "FLAVOR": "If only you could reach into the past, and talk to her before all of this.",
+    "DESCRIPTIONS": [
+      " NL Usable once per combat. NL Right click: Move a card from your exhaust pile to your hand."
+    ]
   }
 }

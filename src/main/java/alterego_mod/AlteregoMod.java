@@ -72,6 +72,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
         BaseMod.addRelicToCustomPool(new MasochisticConstitutionRelic(), Passionlip_Purple);
         BaseMod.addRelicToCustomPool(new FleetingLoveRelic(), Passionlip_Purple);
         BaseMod.addRelicToCustomPool(new SomeoneToFightForRelic(), Passionlip_Purple);
+        BaseMod.addRelicToCustomPool(new SistersRibbonRelic(), Passionlip_Purple);
     }
 
     @Override

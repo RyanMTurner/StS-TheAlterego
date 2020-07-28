@@ -23,7 +23,7 @@ public class SomeoneToFightForRelic extends CustomRelic {
     public SomeoneToFightForRelic() {
         super(ID,
                 new Texture("images/relics/Someone to Fight For.png"), // you could create the texture in this class if you wanted too
-                RelicTier.STARTER, LandingSound.CLINK);
+                RelicTier.SPECIAL, LandingSound.CLINK);
     }
 
     @Override

@@ -15,7 +15,7 @@ public class FleetingLoveRelic extends CustomRelic {
     public FleetingLoveRelic() {
         super(ID,
                 new Texture("images/relics/Fleeting Love.png"), // you could create the texture in this class if you wanted too
-                RelicTier.STARTER, LandingSound.CLINK);
+                RelicTier.SPECIAL, LandingSound.CLINK);
     }
 
     @Override
