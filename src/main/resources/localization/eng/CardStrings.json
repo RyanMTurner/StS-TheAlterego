@@ -49,8 +49,8 @@
   },
   "alterego_mod:Belts": {
     "NAME": "Belts",
-    "DESCRIPTION": "Deal !D! damage X times. NL Whenever you attack this enemy, gain X Block. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. NL Whenever you attack this enemy, gain 2X Block. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage X times. NL Whenever you attack this enemy, gain alterego_mod:Best\u00a0Of X Block. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. NL Whenever you attack this enemy, gain alterego_mod:Best\u00a0Of 2X Block. NL Exhaust."
   },
   "alterego_mod:PresenceConcealment": {
     "NAME": "Presence Concealment",
@@ -217,7 +217,7 @@
   "alterego_mod:IndependentAction": {
     "NAME": "Independent Action",
     "DESCRIPTION": "Gain ",
-    "EXTENDED_DESCRIPTION": [". NL Increase this card's energy gain by 1 until the end of combat."]
+    "EXTENDED_DESCRIPTION": [ ". NL Increase this card's energy gain by 1 until the end of combat." ]
   },
   "alterego_mod:Bounce": {
     "NAME": "Bounce",
@@ -240,7 +240,7 @@
   "alterego_mod:Palingenesis": {
     "NAME": "Palingenesis",
     "DESCRIPTION": "Gain !M! Strength.",
-    "EXTENDED_DESCRIPTION": [" NL Gain ", " Dexterity.", " [E].", " NL Lose ", " HP."]
+    "EXTENDED_DESCRIPTION": [ " NL Gain ", " Dexterity.", " [E].", " NL Lose ", " HP." ]
   },
   "alterego_mod:BustOut": {
     "NAME": "Bust Out",

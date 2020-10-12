@@ -1,31 +1,36 @@
 ﻿[
   {
     "NAMES": [
-      "Durga", "durga"
+      "Durga",
+      "durga"
     ],
     "DESCRIPTION": "In this #yStance, your attacks deal half damage and are played twice."
   },
   {
     "NAMES": [
-      "Brynhildr", "brynhildr"
+      "Brynhildr",
+      "brynhildr"
     ],
     "DESCRIPTION": "In this #yStance, defeating an enemy heals you for 7."
   },
   {
     "NAMES": [
-      "Parvati", "parvati"
+      "Parvati",
+      "parvati"
     ],
     "DESCRIPTION": "In this #yStance, enemies who deal 10+ unblocked damage in one hit lose their next action."
   },
   {
     "NAMES": [
-      "Swipe", "swipe"
+      "Swipe",
+      "swipe"
     ],
     "DESCRIPTION": "Draw the topmost qualifying card from your draw pile. Doesn't shuffle."
   },
   {
     "NAMES": [
-      "Constricted", "constricted"
+      "Constricted",
+      "constricted"
     ],
     "DESCRIPTION": "At the end of your turn, take damage."
   },
@@ -39,7 +44,8 @@
   },
   {
     "NAMES": [
-      "Envenom", "envenom"
+      "Envenom",
+      "envenom"
     ],
     "DESCRIPTION": "Apply Poison whenever you deal unblocked attack damage."
   },
@@ -50,5 +56,13 @@
       "s\u00a0tier"
     ],
     "DESCRIPTION": "#yFeed, #yImmolate, #yAdrenaline, #yWraith #yForm, #yWell #yLaid #yPlans, #ySeek, #yBlasphemy, #ySpirit #yShield, #yLesson #yLearned."
+  },
+  {
+    "PROPER_NAME": "Best\u00a0Of",
+    "NAMES": [
+      "Best\u00a0Of",
+      "best\u00a0of"
+    ],
+    "DESCRIPTION": "This doesn't stack, but does replace if better."
   }
 ]

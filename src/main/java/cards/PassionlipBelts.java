@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 
@@ -61,7 +62,16 @@ public class PassionlipBelts
                     new DamageInfo(p, this.damage, this.damageTypeForTurn),
                     AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
         }
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new BlockReturnPower(m, this.baseMagicNumber * effect)));
+        if (m.hasPower(BlockReturnPower.POWER_ID)) {
+            AbstractPower brt = m.getPower(BlockReturnPower.POWER_ID);
+            int additional = this.baseMagicNumber * effect - brt.amount;
+            if (additional > 0) {
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new BlockReturnPower(m, additional)));
+            }
+        }
+        else {
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new BlockReturnPower(m, this.baseMagicNumber * effect)));
+        }
 
         if (!this.freeToPlayOnce) {
             p.energy.use(EnergyPanel.totalCount);
