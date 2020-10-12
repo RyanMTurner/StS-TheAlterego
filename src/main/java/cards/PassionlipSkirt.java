@@ -34,7 +34,7 @@ public class PassionlipSkirt
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.COMMON, CardTarget.ENEMY);
         this.baseDamage = 4;
-        this.baseMagicNumber = 2;
+        magicNumber = baseMagicNumber = 2;
     }
 
     @Override
