@@ -9,11 +9,10 @@ import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.localization.PowerStrings;
-import com.megacrit.cardcrawl.localization.RelicStrings;
-import com.megacrit.cardcrawl.localization.StanceStrings;
+import com.megacrit.cardcrawl.dungeons.*;
+import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import events.PassionlipSecretGarden;
 import relics.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -28,7 +27,8 @@ public class AlteregoMod implements EditCharactersSubscriber,
         EditRelicsSubscriber,
         EditStringsSubscriber,
         EditCardsSubscriber,
-        EditKeywordsSubscriber {
+        EditKeywordsSubscriber,
+        PostInitializeSubscriber {
 
     public static final Logger logger = LogManager.getLogger(AlteregoMod.class.getName());
 
@@ -65,6 +65,7 @@ public class AlteregoMod implements EditCharactersSubscriber,
         BaseMod.loadCustomStringsFile(CardStrings.class, "localization/eng/CardStrings.json");
         BaseMod.loadCustomStringsFile(StanceStrings.class, "localization/eng/StanceStrings.json");
         BaseMod.loadCustomStringsFile(PowerStrings.class, "localization/eng/PowerStrings.json");
+        BaseMod.loadCustomStringsFile(EventStrings.class, "localization/eng/EventStrings.json");
     }
 
     @Override
@@ -186,5 +187,10 @@ public class AlteregoMod implements EditCharactersSubscriber,
                 }
             }
         }
+    }
+
+    @Override
+    public void receivePostInitialize() {
+        BaseMod.addEvent(PassionlipSecretGarden.ID, PassionlipSecretGarden.class, TheCity.ID);
     }
 }

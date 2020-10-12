@@ -1,0 +1,15 @@
+{
+  "alterego_mod:SecretGarden": {
+    "NAME": "Secret Garden",
+    "DESCRIPTIONS": [
+      "Please be very gentle. Being cared for makes me happy. But I get hungry really quickly when I start moving.",
+      "Eh? Is it... already over? Ah, wh... why...?",
+      "Since you believed in me, I'll fight for you... right till the end!"
+    ],
+    "OPTIONS": [
+      "[One Night Stand] #gReceive #gFleeting #gLove.",
+      "[Lifetime Partnership] #gReceive #gSomeone #gto #gFight #gFor.",
+      "[Leave]"
+    ]
+  }
+}
