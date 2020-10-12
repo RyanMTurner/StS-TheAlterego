@@ -11,5 +11,17 @@
       "[Lifetime Partnership] #gReceive #gSomeone #gto #gFight #gFor.",
       "[Leave]"
     ]
+  },
+  "alterego_mod:Onsen": {
+    "NAME": "Onsen",
+    "DESCRIPTIONS": [
+      "This Hot Spring is Made of Infinite Thickness.",
+      "How did it end up like this!?",
+      "Best not to get involved."
+    ],
+    "OPTIONS": [
+      "[Enter] ???",
+      "[Leave]"
+    ]
   }
 }

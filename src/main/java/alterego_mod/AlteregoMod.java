@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.*;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import events.PassionlipOnsen;
 import events.PassionlipSecretGarden;
 import relics.*;
 import org.apache.logging.log4j.LogManager;
@@ -192,5 +193,6 @@ public class AlteregoMod implements EditCharactersSubscriber,
     @Override
     public void receivePostInitialize() {
         BaseMod.addEvent(PassionlipSecretGarden.ID, PassionlipSecretGarden.class, TheCity.ID);
+        BaseMod.addEvent(PassionlipOnsen.ID, PassionlipOnsen.class, Exordium.ID);
     }
 }
