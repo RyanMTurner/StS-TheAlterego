@@ -32,7 +32,7 @@ public class AlteregoBrynhildrParticleEffect extends AbstractGameEffect {
         this.vX = MathUtils.random(-300.0F, -50.0F) * Settings.scale;
         this.vY = MathUtils.random(-200.0F, -100.0F) * Settings.scale;
         this.x = AbstractDungeon.player.hb.cX + MathUtils.random(100.0F, 160.0F) * Settings.scale - 32.0F;
-        this.y = AbstractDungeon.player.hb.cY + MathUtils.random(-100.0F, 170.0F) * Settings.scale - 32.0F;
+        this.y = AbstractDungeon.player.hb.cY + MathUtils.random(-150.0F, 120.0F) * Settings.scale - 32.0F;
         this.renderBehind = MathUtils.randomBoolean(0.2F + (this.scale - 0.5F));
         this.dvx = 400.0F * Settings.scale * this.scale;
         this.dvy = 100.0F * Settings.scale;
