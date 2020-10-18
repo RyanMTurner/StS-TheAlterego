@@ -130,8 +130,7 @@
   },
   "alterego_mod:DeftHands": {
     "NAME": "Deft Hands",
-    "DESCRIPTION": "Deal !D! damage. NL Gain 1 Dexterity.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 Dexterity. NL Gain !B! Block."
+    "DESCRIPTION": "Deal !D! damage. NL In alterego_mod:Durga, gain 1 Dexterity. NL In alterego_mod:Brynhildr, gain !B! Block. NL In alterego_mod:Parvati, your and the enemy's next attacks deal 1 more damage."
   },
   "alterego_mod:DustData": {
     "NAME": "Dust Data",

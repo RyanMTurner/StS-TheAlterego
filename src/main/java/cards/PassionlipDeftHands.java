@@ -2,6 +2,7 @@ package cards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -13,6 +14,11 @@ import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 
 import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.powers.watcher.VigorPower;
+import powers.AlteregoEnemyVigor;
+import stances.PassionlipBrynhildr;
+import stances.PassionlipDurga;
+import stances.PassionlipParvati;
 
 import static alterego_mod.AbstractCardEnum.Passionlip_Purple;
 
@@ -26,13 +32,12 @@ public class PassionlipDeftHands
     public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
     public static final String IMG_PATH = "images/cards/DeftHands.png";
     private static final int COST = 1;
-    private static final int UPGRADE_PLUS_DMG = 1;
 
     public PassionlipDeftHands() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION,
                 CardType.ATTACK, Passionlip_Purple,
                 CardRarity.COMMON, CardTarget.ENEMY);
-        this.baseDamage = 3;
+        this.baseDamage = 4;
         this.baseBlock = 4;
     }
 
@@ -41,8 +46,14 @@ public class PassionlipDeftHands
         AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
                 new DamageInfo(p, this.damage, this.damageTypeForTurn),
                 AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new DexterityPower(p, 1), 1));
-        if (this.upgraded) {
+        if (p.stance.ID == PassionlipDurga.STANCE_ID) {
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new DexterityPower(p, 1), 1));
+        }
+        else if (p.stance.ID == PassionlipParvati.STANCE_ID) {
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new VigorPower(p, 1)));
+            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new AlteregoEnemyVigor(m, 1)));
+        }
+        else if (p.stance.ID == PassionlipBrynhildr.STANCE_ID) {
             AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.GainBlockAction(p,
                     p, this.block));
         }
@@ -57,8 +68,7 @@ public class PassionlipDeftHands
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.rawDescription = UPGRADE_DESCRIPTION;
-            this.initializeDescription();
+            this.upgradeDamage(4);
         }
     }
 }
