@@ -102,8 +102,8 @@
   },
   "alterego_mod:IdEs": {
     "NAME": "Id_es",
-    "DESCRIPTION": "Play every card in your exhaust pile, then Exhaust.",
-    "UPGRADE_DESCRIPTION": "Retain. NL Play every card in your exhaust pile, then Exhaust."
+    "DESCRIPTION": "Play every card in your exhaust pile (except *Id_es). NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Play every card in your exhaust pile (except *Id_es). NL Exhaust."
   },
   "alterego_mod:Clones": {
     "NAME": "\"Clones\"",

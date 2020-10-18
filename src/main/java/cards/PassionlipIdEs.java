@@ -43,6 +43,9 @@ public class PassionlipIdEs
         Iterator c = p.exhaustPile.group.iterator();
         while(c.hasNext()) {
             AbstractCard tmp = ((AbstractCard)c.next()).makeSameInstanceOf();
+            if (tmp.cardID == ID) {
+                continue;
+            }
             AbstractDungeon.player.limbo.addToBottom(tmp);
             tmp.current_x = this.current_x;
             tmp.current_y = this.current_y;
