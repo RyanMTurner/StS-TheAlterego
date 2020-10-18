@@ -1,5 +1,7 @@
 package stances;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardQueueItem;
@@ -11,6 +13,10 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.StanceStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.stances.AbstractStance;
+import vfx.AlteregoBrynhildrParticleEffect;
+import vfx.AlteregoDurgaParticleEffectLeftToRight;
+import vfx.AlteregoDurgaParticleEffectRightToLeft;
+import vfx.AlteregoStanceAuraEffect;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -68,5 +74,23 @@ public class PassionlipDurga extends AbstractStance {
             tmp.purgeOnUse = true;
             AbstractDungeon.actionManager.addCardQueueItem(new CardQueueItem(tmp, m, card.energyOnUse, true, true), true);
         }
+    }
+
+    public void updateAnimation() {
+        if (!Settings.DISABLE_EFFECTS) {
+            this.particleTimer -= Gdx.graphics.getDeltaTime();
+            if (this.particleTimer < 0.0F) {
+                this.particleTimer = 0.04F;
+                AbstractDungeon.effectsQueue.add(new AlteregoDurgaParticleEffectLeftToRight());
+                AbstractDungeon.effectsQueue.add(new AlteregoDurgaParticleEffectRightToLeft());
+            }
+        }
+
+        this.particleTimer2 -= Gdx.graphics.getDeltaTime();
+        if (this.particleTimer2 < 0.0F) {
+            this.particleTimer2 = MathUtils.random(0.45F, 0.55F);
+            AbstractDungeon.effectsQueue.add(new AlteregoStanceAuraEffect(ID));
+        }
+
     }
 }

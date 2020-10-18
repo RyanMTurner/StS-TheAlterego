@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import stances.PassionlipBrynhildr;
+import stances.PassionlipDurga;
 import stances.PassionlipParvati;
 
 public class AlteregoStanceAuraEffect extends AbstractGameEffect {
@@ -28,6 +29,8 @@ public class AlteregoStanceAuraEffect extends AbstractGameEffect {
             this.color = new Color(MathUtils.random(0.0F, 0.1F), MathUtils.random(0.6F, 0.7F), MathUtils.random(0.3F, 0.4F), 0.0F);
         } else if (stanceId.equals(PassionlipParvati.STANCE_ID)) {
             this.color = new Color(MathUtils.random(0.8F, 0.9F), MathUtils.random(0.8F, 0.9F), MathUtils.random(0.8F, 0.9F), 0.0F);
+        } else if (stanceId.equals(PassionlipDurga.STANCE_ID)) {
+            this.color = new Color(MathUtils.random(0.7F, 0.8F), MathUtils.random(0.1F, 0.2F), MathUtils.random(0.1F, 0.2F), 0.0F);
         } else {
             this.color = new Color(MathUtils.random(0.6F, 0.7F), MathUtils.random(0.0F, 0.1F), MathUtils.random(0.6F, 0.7F), 0.0F);
         }
