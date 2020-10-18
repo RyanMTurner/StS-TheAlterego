@@ -394,5 +394,10 @@
   "alterego_mod:Treatment": {
     "NAME": "Treatment",
     "DESCRIPTION": "Gain !M! Regen."
+  },
+  "alterego_mod:Cycle": {
+    "NAME": "Cycle",
+    "DESCRIPTION": "Change Stance: NL alterego_mod:Durga to alterego_mod:Parvati. NL alterego_mod:Parvati to alterego_mod:Brynhildr. NL alterego_mod:Brynhildr to alterego_mod:Durga.",
+    "UPGRADE_DESCRIPTION": "Change Stance: NL alterego_mod:Durga to alterego_mod:Parvati. NL alterego_mod:Parvati to alterego_mod:Brynhildr. NL alterego_mod:Brynhildr to alterego_mod:Durga. NL None to Calm."
   }
 }
