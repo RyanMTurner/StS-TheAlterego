@@ -27,7 +27,12 @@ public class AlteregoTableModifier extends AbstractCardModifier {
 
     @Override
     public String modifyDescription(String rawDescription, AbstractCard card) {
-        return "Retain" + (reduceCost ? "+" : "") + ". NL " + rawDescription;
+        if (reduceCost) {
+            return "alterego_mod:Retain+" + ". NL " + rawDescription;
+        }
+        else {
+            return "Retain" + ". NL " + rawDescription;
+        }
     }
 
     @Override

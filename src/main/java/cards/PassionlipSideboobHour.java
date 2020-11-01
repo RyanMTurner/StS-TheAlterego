@@ -67,4 +67,10 @@ public class PassionlipSideboobHour
             this.upgradeBaseCost(2);
         }
     }
+
+    @Override
+    public void calculateCardDamage(AbstractMonster mo) {
+        this.rawDescription = DESCRIPTION + " (" + (int)(CardCrawlGame.playtime / 60) + ")";
+        initializeDescription();
+    }
 }

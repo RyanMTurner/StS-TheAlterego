@@ -64,5 +64,29 @@
       "best\u00a0of"
     ],
     "DESCRIPTION": "This doesn't stack, but does replace if better."
+  },
+  {
+    "PROPER_NAME": "Retain+",
+    "NAMES": [
+      "Retain+",
+      "retain+"
+    ],
+    "DESCRIPTION": "Not discarded at end of turn, costs 1 less each time this happens."
+  },
+  {
+    "PROPER_NAME": "Set\u00a0Damage",
+    "NAMES": [
+      "Set\u00a0Damage",
+      "set\u00a0damage"
+    ],
+    "DESCRIPTION": "Not changed by Strength, Weak, etc."
+  },
+  {
+    "PROPER_NAME": "Impediments",
+    "NAMES": [
+      "Impediments",
+      "impediments"
+    ],
+    "DESCRIPTION": "Block, Ethereal, etc."
   }
 ]
