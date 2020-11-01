@@ -36,6 +36,8 @@ public class PassionlipPalingenesis
                 CardType.POWER, Passionlip_Purple,
                 CardRarity.RARE, CardTarget.SELF);
         this.baseMagicNumber = 1;
+        setDescription();
+        initializeDescription();
     }
 
     int dexAmt = 0;
@@ -103,6 +105,7 @@ public class PassionlipPalingenesis
         if (damageAmt > 0) {
             newDescription += EXTENDED_DESCRIPTION[3] + damageAmt + EXTENDED_DESCRIPTION[4];
         }
+        newDescription += EXTENDED_DESCRIPTION[5];
         this.rawDescription = newDescription;
     }
 }
