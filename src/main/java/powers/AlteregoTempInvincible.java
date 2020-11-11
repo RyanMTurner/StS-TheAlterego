@@ -32,6 +32,13 @@ public class AlteregoTempInvincible extends InvinciblePower {
     }
 
     @Override
+    public void stackPower(int stackAmount) {
+        if (stackAmount < this.amount) {
+            this.amount = stackAmount;
+        }
+    }
+
+    @Override
     public void atEndOfRound() {
         this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, this));
     }

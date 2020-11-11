@@ -53,17 +53,17 @@ public class AlteregoGainStrengthLater extends AbstractPower {
     @Override
     public void atEndOfTurn(boolean isPlayer) {
         this.flash();
-        ArrayList<Integer> toRemove = new ArrayList<Integer>();
+        int concurrentTimers = 0;
         for (int i = 0; i < timers.size(); i++) {
             if (timers.get(i) == 1) {
-                toRemove.add(i);
+                concurrentTimers++;
             }
             else {
                 timers.set(i, timers.get(i) - 1);
             }
         }
-        for (Integer i : toRemove) {
-            timers.remove((int)i);
+        for (int i = 0; i < concurrentTimers; i++) {
+            timers.remove(0);
             this.addToBot(new ApplyPowerAction(this.owner, this.owner, new StrengthPower(this.owner, 3), 3));
         }
         this.amount = maxTime();

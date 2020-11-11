@@ -58,9 +58,7 @@ public class AlteregoVirginLaserPalladionAction extends LoseHPAction {
 
             this.target.damage(new DamageInfo(this.source, this.amount, DamageInfo.DamageType.HP_LOSS));
 
-            for (AbstractPower pow : damagePreventionPowers) {
-                this.target.powers.add(pow);
-            }
+            this.target.powers.addAll(damagePreventionPowers);
 
             if (AbstractDungeon.getCurrRoom().monsters.areMonstersBasicallyDead()) {
                 AbstractDungeon.actionManager.clearPostCombatActions();
