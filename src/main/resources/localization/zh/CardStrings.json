@@ -88,8 +88,8 @@
   },
   "alterego_mod:BigMeatyClaws": {
     "NAME": "巨型合金重爪",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 增加 X 张 *小刀 到手牌.",
-    "UPGRADE_DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 增加 X+2 张 *小刀 到手牌."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 增加 X 张 *小刀 到手牌.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 增加 X+2 张 *小刀 到手牌."
   },
   "alterego_mod:ClassAdvantage": {
     "NAME": "职阶压制",
@@ -116,8 +116,8 @@
   },
   "alterego_mod:Clap": {
     "NAME": "幻影爪",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 本回合, 你的下一次攻击打出两次.",
-    "UPGRADE_DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 本回合, 你的下两次攻击打出两次."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 本回合, 你的下一次攻击打出两次.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 本回合, 你的下两次攻击打出两次."
   },
   "alterego_mod:Cushion": {
     "NAME": "肉垫缓冲",
@@ -130,20 +130,20 @@
   },
   "alterego_mod:DeftHands": {
     "NAME": "心灵手巧",
-    "DESCRIPTION": "造成 !D! 点伤害. NL 在 alterego_mod:人格转换：战争女神 姿态, 获得 1 敏捷. NL 在 alterego_mod:人格转换：女武神 姿态, 获得 !B! 格挡. NL 在 alterego_mod:人格转换：雪山女神 姿态, 你和敌人的下一次攻击造成 1 点额外伤害."
+    "DESCRIPTION": "造成 !D! 点伤害. NL 在 alterego_mod:战争女神 姿态, 获得 1 敏捷. NL 在 alterego_mod:女武神 姿态, 获得 !B! 格挡. NL 在 alterego_mod:雪山女神 姿态, 你和敌人的下一次攻击造成 1 点额外伤害."
   },
   "alterego_mod:DustData": {
     "NAME": "失落区域",
     "DESCRIPTION": "消逝. NL 杀死一个非boss敌人. NL 变成诅咒牌: *悔恨.",
     "UPGRADE_DESCRIPTION": "消逝. NL 杀死一个非boss敌人."
   },
-  "alterego_mod:人格转换：女武神sRune": {
+  "alterego_mod:BrynhildrsRune": {
     "NAME": "布伦希尔德的符文",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：女武神 姿态. NL 获得 !M! 敏捷. NL 获得 !B! 格挡."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 获得 !M! 敏捷. NL 获得 !B! 格挡."
   },
-  "alterego_mod:人格转换：女武神Romantia": {
+  "alterego_mod:BrynhildrRomantia": {
     "NAME": "直至死亡拆散两人",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：女武神 姿态. NL 造成 !D! 点伤害. NL 斩杀时, 提升 !M! 最大生命值."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 造成 !D! 点伤害. NL 斩杀时, 提升 !M! 最大生命值."
   },
   "alterego_mod:PerceptionDisorder": {
     "NAME": "认知障碍",
@@ -169,11 +169,11 @@
   },
   "alterego_mod:Tantrum": {
     "NAME": "雷霆震怒",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 你的攻击造成双倍伤害，持续三回合."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 你的攻击造成双倍伤害，持续三回合."
   },
   "alterego_mod:Valkyrie": {
     "NAME": "瓦尔基里之符文",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：女武神 姿态. NL 造成 !D! 点伤害. NL 如果造成致命伤害, 获得 !M! 再生."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 造成 !D! 点伤害. NL 如果造成致命伤害, 获得 !M! 再生."
   },
   "alterego_mod:GIGAMILK": {
     "NAME": "甘甜乳汁",
@@ -224,8 +224,8 @@
   },
   "alterego_mod:Impale": {
     "NAME": "愉悦穿刺",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：雪山女神 姿态. NL 获得 2 力量. NL 敌人获得 2 力量. NL 造成 !D! 点伤害.",
-    "UPGRADE_DESCRIPTION": "进入 alterego_mod:人格转换：雪山女神 姿态. NL 获得 3 力量. NL 敌人获得 1 力量. NL 造成 !D! 点伤害."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 获得 2 力量. NL 敌人获得 2 力量. NL 造成 !D! 点伤害.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 获得 3 力量. NL 敌人获得 1 力量. NL 造成 !D! 点伤害."
   },
   "alterego_mod:Collar": {
     "NAME": "紧致项圈",
@@ -255,7 +255,7 @@
   },
   "alterego_mod:Lingerie": {
     "NAME": "春光乍现",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：雪山女神 姿态. NL 造成 !D! 点伤害. NL 获得 1 易伤."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 造成 !D! 点伤害. NL 获得 1 易伤."
   },
   "alterego_mod:Belle": {
     "NAME": "美女香车",
@@ -287,8 +287,8 @@
   },
   "alterego_mod:Valentines": {
     "NAME": "情人节礼物",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：女武神 姿态. NL 清除一个随机负面状态.",
-    "UPGRADE_DESCRIPTION": "墓地. NL 进入 alterego_mod:人格转换：女武神 姿态. NL 清除全部负面状态."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 清除一个随机负面状态.",
+    "UPGRADE_DESCRIPTION": "墓地. NL 进入 alterego_mod:女武神 姿态. NL 清除全部负面状态."
   },
   "alterego_mod:BreastValley": {
     "NAME": "傲人山峰",
@@ -347,11 +347,11 @@
   },
   "alterego_mod:SuperDuperMasochism": {
     "NAME": "受虐狂人",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：雪山女神 姿态. NL 本回合每受到 !M! 点伤害，获得 1 力量."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 本回合每受到 !M! 点伤害，获得 1 力量."
   },
   "alterego_mod:Antipathy": {
     "NAME": "反感 厌恶 憎恨 去死",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：雪山女神. NL 获得 !M! alterego_mod:瞬时坚毅."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神. NL 获得 !M! alterego_mod:瞬时坚毅."
   },
   "alterego_mod:STier": {
     "NAME": "英灵榜",
@@ -360,8 +360,8 @@
   },
   "alterego_mod:Exercise": {
     "NAME": "力之试炼",
-    "DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成, 此卡再打出一次.",
-    "UPGRADE_DESCRIPTION": "进入 alterego_mod:人格转换：战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成或处于 alterego_mod:人格转换：战争女神 姿态, 此卡再打出一次."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成, 此卡再打出一次.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成或处于 alterego_mod:战争女神 姿态, 此卡再打出一次."
   },
   "alterego_mod:Undulate": {
     "NAME": "波动余震",
@@ -396,7 +396,7 @@
   },
   "alterego_mod:Cycle": {
     "NAME": "轮番掌控",
-    "DESCRIPTION": "改变姿态: NL alterego_mod:人格转换：战争女神 变为 alterego_mod:人格转换：雪山女神. NL alterego_mod:人格转换：雪山女神 变为 alterego_mod:人格转换：女武神. NL alterego_mod:人格转换：女武神 变为 alterego_mod:人格转换：战争女神.",
-    "UPGRADE_DESCRIPTION": "改变姿态: NL alterego_mod:人格转换：战争女神 变为 alterego_mod:人格转换：雪山女神. NL alterego_mod:人格转换：雪山女神 变为 alterego_mod:人格转换：女武神. NL alterego_mod:人格转换：女武神 变为 alterego_mod:人格转换：战争女神. NL 无状态则进入平静."
+    "DESCRIPTION": "改变姿态: NL alterego_mod:战争女神 变为 alterego_mod:雪山女神. NL alterego_mod:雪山女神 变为 alterego_mod:女武神. NL alterego_mod:女武神 变为 alterego_mod:战争女神.",
+    "UPGRADE_DESCRIPTION": "改变姿态: NL alterego_mod:战争女神 变为 alterego_mod:雪山女神. NL alterego_mod:雪山女神 变为 alterego_mod:女武神. NL alterego_mod:女武神 变为 alterego_mod:战争女神. NL 无状态则进入平静."
   }
 }

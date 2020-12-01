@@ -179,8 +179,12 @@ public class AlteregoMod implements EditCharactersSubscriber,
     @Override
     public void receiveEditKeywords() {
         logger.info("Setting up Alterego keywords.");
+        String languageCode = "eng";
+        if (Settings.language == Settings.GameLanguage.ZHS || Settings.language == Settings.GameLanguage.ZHT) {
+            languageCode = "zh";
+        }
         Gson gson = new Gson();
-        String json = Gdx.files.internal("localization/eng/KeywordStrings.json").readString(String.valueOf(StandardCharsets.UTF_8));
+        String json = Gdx.files.internal("localization/" + languageCode + "/KeywordStrings.json").readString(String.valueOf(StandardCharsets.UTF_8));
         Keyword[] keywords = gson.fromJson(json, Keyword[].class);
 
         if (keywords != null) {
