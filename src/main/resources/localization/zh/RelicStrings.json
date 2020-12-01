@@ -1,0 +1,30 @@
+{
+  "alterego_mod:MasochisticConstitution": {
+    "NAME": "受虐体质",
+    "FLAVOR": "吸收对方全部仇恨值.",
+    "DESCRIPTIONS": [
+      "每场战斗可触发一次，承受未格挡伤害将获得最大生命值1."
+    ]
+  },
+  "alterego_mod:FleetingLove": {
+    "NAME": "爱的消逝",
+    "FLAVOR": "被深爱之人误解，关上心门.",
+    "DESCRIPTIONS": [
+      "每次战斗的第一回合最多承受6点伤害."
+    ]
+  },
+  "alterego_mod:SomeoneToFightFor": {
+    "NAME": "为爱而战",
+    "FLAVOR": "想到恋人还在等待，备受鼓舞!",
+    "DESCRIPTIONS": [
+      "每场战斗开始获得随机姿态 Alterego #yStance."
+    ]
+  },
+  "alterego_mod:SistersRibbon": {
+    "NAME": "姐姐的丝带",
+    "FLAVOR": "假如时光倒流，我一定会...",
+    "DESCRIPTIONS": [
+      " NL 每场战斗可用一次. NL 右击: 从已消耗牌中选择一张加入手牌."
+    ]
+  }
+}

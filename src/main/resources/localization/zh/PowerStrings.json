@@ -1,0 +1,163 @@
+{
+  "alterego_mod:ClassAdvantagePower": {
+    "NAME": "职阶压制",
+    "DESCRIPTIONS": [
+      "造成 15% 额外伤害. 承受 85% 伤害."
+    ]
+  },
+  "alterego_mod:ClassAdvantageLitePower": {
+    "NAME": "职阶优势",
+    "DESCRIPTIONS": [
+      "造成 10% 额外伤害. 承受 90% 伤害."
+    ]
+  },
+  "alterego_mod:PainIsPleasurePower": {
+    "NAME": "痛并快乐",
+    "DESCRIPTIONS": [
+      "本回合吸收收到的伤害转化为生命值."
+    ]
+  },
+  "alterego_mod:PerceptionDisorderPower": {
+    "NAME": "认知障碍",
+    "DESCRIPTIONS": [
+      "你将无法看到敌人的意图."
+    ]
+  },
+  "alterego_mod:PunishmentPower": {
+    "NAME": "烈火焚心",
+    "DESCRIPTIONS": [
+      "在回合末，每有一张手牌扣除一点生命值. 每回合, 获得能量."
+    ]
+  },
+  "alterego_mod:PunishmentPowerUpgraded": {
+    "NAME": "业火焚心",
+    "DESCRIPTIONS": [
+      "在回合末，每有两张手牌扣除一点生命值. 每回合, 获得能量。"
+    ]
+  },
+  "alterego_mod:TantrumPower": {
+    "NAME": "雷霆震怒",
+    "DESCRIPTIONS": [
+      "你的攻击造成双倍伤害."
+    ]
+  },
+  "alterego_mod:DiscoLightsPower": {
+    "NAME": "霓虹乐光",
+    "DESCRIPTIONS": [
+      "每当你打出 小刀 , 获得 ",
+      " 临时生命."
+    ]
+  },
+  "alterego_mod:DiscoLightsLitePower": {
+    "NAME": "霓虹灯光",
+    "DESCRIPTIONS": [
+      "每两次你打出 小刀 , 获得一次 ",
+      " 临时生命."
+    ]
+  },
+  "alterego_mod:SakuraLabyrinthPower": {
+    "NAME": "樱花宫",
+    "DESCRIPTIONS": [
+      "施加5层 缓慢 状态."
+    ]
+  },
+  "alterego_mod:NekomimiPower": {
+    "NAME": "灵动猫耳",
+    "DESCRIPTIONS": [
+      "每回合开始, 获得 ",
+      " 敏捷."
+    ]
+  },
+  "alterego_mod:GainStrengthLaterPower": {
+    "NAME": "邪力呼唤",
+    "DESCRIPTIONS": [
+      "获得 3 力量，在 ",
+      " 回合后.",
+      " 回合后."
+    ]
+  },
+  "alterego_mod:BreastValleyPower": {
+    "NAME": "傲人山峰",
+    "DESCRIPTIONS": [
+      "每当有卡被消耗时, 获得 ",
+      " 格挡."
+    ]
+  },
+  "alterego_mod:AlterPower": {
+    "NAME": "受虐改造",
+    "DESCRIPTIONS": [
+      "承受 50% 额外伤害."
+    ]
+  },
+  "alterego_mod:AlterLitePower": {
+    "NAME": "受虐改造",
+    "DESCRIPTIONS": [
+      "承受 25% 额外伤害."
+    ]
+  },
+  "alterego_mod:RakePower": {
+    "NAME": "刺骨刮伤",
+    "DESCRIPTIONS": [
+      "在回合结束时，失去 ",
+      " 力量和敏捷."
+    ]
+  },
+  "alterego_mod:InsideBaseballPower": {
+    "NAME": "凶器碾压",
+    "DESCRIPTIONS": [
+      "下一次非boss敌人攻击你，该敌人逃跑."
+    ]
+  },
+  "alterego_mod:SupportPower": {
+    "NAME": "得寸进尺",
+    "DESCRIPTIONS": [
+      "每打出一张攻击牌, 获得 ",
+      " 敏捷."
+    ]
+  },
+  "alterego_mod:SuperDuperMasochismPower": {
+    "NAME": "受虐狂人",
+    "DESCRIPTIONS": [
+      "每受10点伤害，获得 ",
+      " 力量."
+    ]
+  },
+  "alterego_mod:SuperDuperMasochismPowerUpgraded": {
+    "NAME": "受虐狂魔",
+    "DESCRIPTIONS": [
+      "每受5点伤害，获得 ",
+      " 力量."
+    ]
+  },
+  "alterego_mod:AlterEgoPower": {
+    "NAME": "幽暗内心",
+    "DESCRIPTIONS": [
+      "奇数回合，攻击牌减少 ",
+      " 费用. NL 偶数回合, 技能牌减少 ",
+      " 费用. NL (现在是 ",
+      " 下回合生效)",
+      " 下回合生效)"
+    ]
+  },
+  "alterego_mod:AlterEgoPowerUpgraded": {
+    "NAME": "幽暗内心",
+    "DESCRIPTIONS": [
+      "攻击和技能牌减少 ",
+      " 点能量消耗.",
+      " 下回合生效)",
+      " 下回合生效)"
+    ]
+  },
+  "alterego_mod:VowPower": {
+    "NAME": "深渊回响",
+    "DESCRIPTIONS": [
+      "当任一敌人死亡时，该目标死亡."
+    ]
+  },
+  "alterego_mod:RingBreakPower": {
+    "NAME": "破碎之戒",
+    "DESCRIPTIONS": [
+      "当受到攻击后格挡消失时, 未被格挡的伤害将加到下次攻击中."
+    ]
+  }
+}

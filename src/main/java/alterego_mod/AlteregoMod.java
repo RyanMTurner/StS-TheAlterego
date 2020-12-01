@@ -9,6 +9,7 @@ import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.*;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
@@ -62,11 +63,15 @@ public class AlteregoMod implements EditCharactersSubscriber,
 
     @Override
     public void receiveEditStrings() {
-        BaseMod.loadCustomStringsFile(RelicStrings.class, "localization/eng/RelicStrings.json");
-        BaseMod.loadCustomStringsFile(CardStrings.class, "localization/eng/CardStrings.json");
-        BaseMod.loadCustomStringsFile(StanceStrings.class, "localization/eng/StanceStrings.json");
-        BaseMod.loadCustomStringsFile(PowerStrings.class, "localization/eng/PowerStrings.json");
-        BaseMod.loadCustomStringsFile(EventStrings.class, "localization/eng/EventStrings.json");
+        String languageCode = "eng";
+        if (Settings.language == Settings.GameLanguage.ZHS || Settings.language == Settings.GameLanguage.ZHT) {
+            languageCode = "zh";
+        }
+        BaseMod.loadCustomStringsFile(RelicStrings.class, "localization/" + languageCode + "/RelicStrings.json");
+        BaseMod.loadCustomStringsFile(CardStrings.class, "localization/" + languageCode + "/CardStrings.json");
+        BaseMod.loadCustomStringsFile(StanceStrings.class, "localization/" + languageCode + "/StanceStrings.json");
+        BaseMod.loadCustomStringsFile(PowerStrings.class, "localization/" + languageCode + "/PowerStrings.json");
+        BaseMod.loadCustomStringsFile(EventStrings.class, "localization/" + languageCode + "/EventStrings.json");
     }
 
     @Override

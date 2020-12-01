@@ -1,0 +1,80 @@
+[
+  {
+    "NAMES": [
+      "战争女神"
+    ],
+    "DESCRIPTION": "在该 #y姿态 中, 你的攻击数值减半，但能打出两次."
+  },
+  {
+    "NAMES": [
+      "女武神"
+    ],
+    "DESCRIPTION": "在该 #y姿态 中, 击杀敌人将获得 7 治疗."
+  },
+  {
+    "NAMES": [
+      "雪山女神"
+    ],
+    "DESCRIPTION": "在该 #y姿态 中, 一击造成十点以上未格挡伤害的敌人将无法行动一回合."
+  },
+  {
+    "NAMES": [
+      "汲能挥击"
+    ],
+    "DESCRIPTION": "从抽牌堆中抽稀有度最高的一张卡."
+  },
+  {
+    "NAMES": [
+      "缠绕"
+    ],
+    "DESCRIPTION": "在回合结束时承受伤害."
+  },
+  {
+    "PROPER_NAME": "瞬时坚毅",
+    "NAMES": [
+      "瞬时坚毅"
+    ],
+    "DESCRIPTION": "一回合内, 你最多受到所示数值的伤害."
+  },
+  {
+    "NAMES": [
+      "毒液"
+    ],
+    "DESCRIPTION": "当你造成的伤害未被格挡，施加中毒."
+  },
+  {
+    "PROPER_NAME": "英灵榜",
+    "NAMES": [
+      "英灵榜"
+    ],
+    "DESCRIPTION": "#y狂 #y宴, #y燔 #y祭, #y肾 #y上 #y腺 #y素, #y幽 #y魂 #y形 #y态, #y计 #y划 #y妥 #y当, #y搜 #y寻, #y渎 #y神, #y精 #y神 #y护 #y盾, #y勤 #y学 #y精 #y进 ."
+  },
+  {
+    "PROPER_NAME": "择优算法",
+    "NAMES": [
+      "择优算法"
+    ],
+    "DESCRIPTION": "效果不叠加，但会被更高的层数替代."
+  },
+  {
+    "PROPER_NAME": "怨念+",
+    "NAMES": [
+      "怨念+"
+    ],
+    "DESCRIPTION": "回合结束不弃卡，并减少1费用."
+  },
+  {
+    "PROPER_NAME": "固定伤害",
+    "NAMES": [
+      "固定伤害"
+    ],
+    "DESCRIPTION": "固定数值。不受力量，脆弱等效果影响."
+  },
+  {
+    "PROPER_NAME": "阻碍",
+    "NAMES": [
+      "阻碍"
+    ],
+    "DESCRIPTION": "格挡, 无实体，坚固心脏 等等."
+  }
+]
