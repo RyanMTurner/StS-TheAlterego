@@ -14,25 +14,25 @@
   "alterego_mod:PainIsPleasurePower": {
     "NAME": "痛并快乐",
     "DESCRIPTIONS": [
-      "本回合吸收收到的伤害转化为生命值."
+      "本回合吸收收到的伤害转化为 生命值 ."
     ]
   },
   "alterego_mod:PerceptionDisorderPower": {
     "NAME": "认知障碍",
     "DESCRIPTIONS": [
-      "你将无法看到敌人的意图."
+      "你将无法看到敌人的 意图 ."
     ]
   },
   "alterego_mod:PunishmentPower": {
     "NAME": "烈火焚心",
     "DESCRIPTIONS": [
-      "在回合末，每有一张手牌扣除一点生命值. 每回合, 获得能量."
+      "在回合末，每有一张手牌扣除一点 生命值 . 每回合, 获得 能量 ."
     ]
   },
   "alterego_mod:PunishmentPowerUpgraded": {
     "NAME": "业火焚心",
     "DESCRIPTIONS": [
-      "在回合末，每有两张手牌扣除一点生命值. 每回合, 获得能量。"
+      "在回合末，每有两张手牌扣除一点 生命值 . 每回合, 获得 能量 。"
     ]
   },
   "alterego_mod:TantrumPower": {
@@ -45,14 +45,14 @@
     "NAME": "霓虹乐光",
     "DESCRIPTIONS": [
       "每当你打出 小刀 , 获得 ",
-      " 临时生命."
+      " 临时生命 ."
     ]
   },
   "alterego_mod:DiscoLightsLitePower": {
     "NAME": "霓虹灯光",
     "DESCRIPTIONS": [
       "每两次你打出 小刀 , 获得一次 ",
-      " 临时生命."
+      " 临时生命 ."
     ]
   },
   "alterego_mod:SakuraLabyrinthPower": {
@@ -65,13 +65,13 @@
     "NAME": "灵动猫耳",
     "DESCRIPTIONS": [
       "每回合开始, 获得 ",
-      " 敏捷."
+      " 敏捷 ."
     ]
   },
   "alterego_mod:GainStrengthLaterPower": {
     "NAME": "邪力呼唤",
     "DESCRIPTIONS": [
-      "获得 3 力量，在 ",
+      "获得 3 力量 ，在 ",
       " 回合后.",
       " 回合后."
     ]
@@ -79,8 +79,8 @@
   "alterego_mod:BreastValleyPower": {
     "NAME": "傲人山峰",
     "DESCRIPTIONS": [
-      "每当有卡被消耗时, 获得 ",
-      " 格挡."
+      "每当有卡被 消耗 时, 获得 ",
+      " 格挡 ."
     ]
   },
   "alterego_mod:AlterPower": {
@@ -99,7 +99,7 @@
     "NAME": "刺骨刮伤",
     "DESCRIPTIONS": [
       "在回合结束时，失去 ",
-      " 力量和敏捷."
+      " 力量 和 敏捷 ."
     ]
   },
   "alterego_mod:InsideBaseballPower": {
@@ -112,21 +112,21 @@
     "NAME": "得寸进尺",
     "DESCRIPTIONS": [
       "每打出一张攻击牌, 获得 ",
-      " 敏捷."
+      " 敏捷 ."
     ]
   },
   "alterego_mod:SuperDuperMasochismPower": {
     "NAME": "受虐狂人",
     "DESCRIPTIONS": [
       "每受10点伤害，获得 ",
-      " 力量."
+      " 力量 ."
     ]
   },
   "alterego_mod:SuperDuperMasochismPowerUpgraded": {
     "NAME": "受虐狂魔",
     "DESCRIPTIONS": [
       "每受5点伤害，获得 ",
-      " 力量."
+      " 力量 ."
     ]
   },
   "alterego_mod:AlterEgoPower": {
@@ -157,7 +157,7 @@
   "alterego_mod:RingBreakPower": {
     "NAME": "破碎之戒",
     "DESCRIPTIONS": [
-      "当受到攻击后格挡消失时, 未被格挡的伤害将加到下次攻击中."
+      "当受到攻击后 格挡 消失时, 未被格挡的伤害将加到下次攻击中."
     ]
   }
 }
