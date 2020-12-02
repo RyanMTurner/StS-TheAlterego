@@ -49,8 +49,8 @@
   },
   "alterego_mod:Belts": {
     "NAME": "护身皮鞭",
-    "DESCRIPTION": "造成 !D! 点伤害 X 次. NL 当你攻击该敌人时, 获得 择优算法 X 格挡 . NL 消耗 .",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 X 次. NL 当你攻击该敌人时, 获得 择优算法 2X 格挡 . NL 消耗 ."
+    "DESCRIPTION": "造成 !D! 点伤害 X 次. NL 当你攻击该敌人时, 获得 alterego_mod:择优算法 X 格挡 . NL 消耗 .",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 X 次. NL 当你攻击该敌人时, 获得 alterego_mod:择优算法 2X 格挡 . NL 消耗 ."
   },
   "alterego_mod:PresenceConcealment": {
     "NAME": "气息遮蔽",
@@ -59,7 +59,7 @@
   },
   "alterego_mod:ChallengeComplete": {
     "NAME": "固若金汤",
-    "DESCRIPTION": "获得 !M! 金属化 ."
+    "DESCRIPTION": "获得 !M! 多层护甲 ."
   },
   "alterego_mod:Complex": {
     "NAME": "巨乳情结",
@@ -88,8 +88,8 @@
   },
   "alterego_mod:BigMeatyClaws": {
     "NAME": "巨型合金重爪",
-    "DESCRIPTION": "进入 战争女神 姿态. NL 增加 X 张 *小刀 到手牌.",
-    "UPGRADE_DESCRIPTION": "进入 战争女神 姿态. NL 增加 X+2 张 *小刀 到手牌."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 增加 X 张 *小刀 到手牌.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 增加 X+2 张 *小刀 到手牌."
   },
   "alterego_mod:ClassAdvantage": {
     "NAME": "职阶压制",
@@ -116,8 +116,8 @@
   },
   "alterego_mod:Clap": {
     "NAME": "幻影爪",
-    "DESCRIPTION": "进入 战争女神 姿态. NL 本回合, 你的下一次攻击打出两次.",
-    "UPGRADE_DESCRIPTION": "进入 战争女神 姿态. NL 本回合, 你的下两次攻击打出两次."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 本回合, 你的下一次攻击打出两次.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 本回合, 你的下两次攻击打出两次."
   },
   "alterego_mod:Cushion": {
     "NAME": "肉垫缓冲",
@@ -130,7 +130,7 @@
   },
   "alterego_mod:DeftHands": {
     "NAME": "心灵手巧",
-    "DESCRIPTION": "造成 !D! 点伤害. NL 在 战争女神 姿态, 获得 1 敏捷. NL 在 女武神 姿态, 获得 !B! 格挡. NL 在 雪山女神 姿态, 你和敌人的下一次攻击造成 1 点额外伤害."
+    "DESCRIPTION": "造成 !D! 点伤害. NL 在 alterego_mod:战争女神 姿态, 获得 1 敏捷. NL 在 alterego_mod:女武神 姿态, 获得 !B! 格挡. NL 在 alterego_mod:雪山女神 姿态, 你和敌人的下一次攻击造成 1 点额外伤害."
   },
   "alterego_mod:DustData": {
     "NAME": "失落区域",
@@ -139,11 +139,11 @@
   },
   "alterego_mod:BrynhildrsRune": {
     "NAME": "布伦希尔德的符文",
-    "DESCRIPTION": "进入 女武神 姿态. NL 获得 !M! 敏捷 . NL 获得 !B! 格挡 ."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 获得 !M! 敏捷 . NL 获得 !B! 格挡 ."
   },
   "alterego_mod:BrynhildrRomantia": {
     "NAME": "直至死亡拆散两人",
-    "DESCRIPTION": "进入 女武神 姿态. NL 造成 !D! 点伤害. NL 斩杀 时, 提升 !M! 最大生命值 ."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 造成 !D! 点伤害. NL 斩杀 时, 提升 !M! 最大生命值 ."
   },
   "alterego_mod:PerceptionDisorder": {
     "NAME": "认知障碍",
@@ -169,11 +169,11 @@
   },
   "alterego_mod:Tantrum": {
     "NAME": "雷霆震怒",
-    "DESCRIPTION": "进入 战争女神 姿态. NL 你的攻击造成双倍伤害，持续三回合."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 你的攻击造成双倍伤害，持续三回合."
   },
   "alterego_mod:Valkyrie": {
     "NAME": "瓦尔基里之符文",
-    "DESCRIPTION": "进入 女武神 姿态. NL 造成 !D! 点伤害. NL 如果造成致命伤害, 获得 !M! 再生 ."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 造成 !D! 点伤害. NL 如果造成致命伤害, 获得 !M! 再生 ."
   },
   "alterego_mod:GIGAMILK": {
     "NAME": "甘甜乳汁",
@@ -182,7 +182,7 @@
   },
   "alterego_mod:Smother": {
     "NAME": "窒息双峰",
-    "DESCRIPTION": "施加 !M! 缠绕 ."
+    "DESCRIPTION": "施加 !M! alterego_mod:缠绕 ."
   },
   "alterego_mod:Stockings": {
     "NAME": "诱人丝袜",
@@ -207,11 +207,11 @@
   },
   "alterego_mod:BoobPocket": {
     "NAME": "虚数空间",
-    "DESCRIPTION": " 抹除 一张手牌. NL 回合开始: 汲能挥击 上一场战斗中  抹除 的卡."
+    "DESCRIPTION": " 抹除 一张手牌. NL 回合开始: alterego_mod:汲能挥击 上一场战斗中  抹除 的卡."
   },
   "alterego_mod:HighServant": {
     "NAME": "高阶从者",
-    "DESCRIPTION": "汲能挥击 一张可以改变 姿态 的卡."
+    "DESCRIPTION": "alterego_mod:汲能挥击 一张可以改变 姿态 的卡."
   },
   "alterego_mod:IndependentAction": {
     "NAME": "决心",
@@ -220,12 +220,12 @@
   },
   "alterego_mod:Bounce": {
     "NAME": "弹力冲击",
-    "DESCRIPTION": "造成 !D! 点伤害. NL 汲能挥击 一张 *弹力冲击 ."
+    "DESCRIPTION": "造成 !D! 点伤害. NL alterego_mod:汲能挥击 一张 *弹力冲击 ."
   },
   "alterego_mod:Impale": {
     "NAME": "愉悦穿刺",
-    "DESCRIPTION": "进入 雪山女神 姿态. NL 获得 2 力量 . NL 敌人获得 2 力量 . NL 造成 !D! 点伤害.",
-    "UPGRADE_DESCRIPTION": "进入 雪山女神 姿态. NL 获得 3 力量 . NL 敌人获得 1 力量 . NL 造成 !D! 点伤害."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 获得 2 力量 . NL 敌人获得 2 力量 . NL 造成 !D! 点伤害.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 获得 3 力量 . NL 敌人获得 1 力量 . NL 造成 !D! 点伤害."
   },
   "alterego_mod:Collar": {
     "NAME": "紧致项圈",
@@ -255,7 +255,7 @@
   },
   "alterego_mod:Lingerie": {
     "NAME": "春光乍现",
-    "DESCRIPTION": "进入 雪山女神 姿态. NL 造成 !D! 点伤害. NL 获得 1 易伤 ."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 造成 !D! 点伤害. NL 获得 1 易伤 ."
   },
   "alterego_mod:Belle": {
     "NAME": "美女香车",
@@ -287,8 +287,8 @@
   },
   "alterego_mod:Valentines": {
     "NAME": "情人节礼物",
-    "DESCRIPTION": "进入 女武神 姿态. NL 清除一个随机负面状态.",
-    "UPGRADE_DESCRIPTION": " 墓地 . NL 进入 女武神 姿态. NL 清除全部负面状态."
+    "DESCRIPTION": "进入 alterego_mod:女武神 姿态. NL 清除一个随机负面状态.",
+    "UPGRADE_DESCRIPTION": " 墓地 . NL 进入 alterego_mod:女武神 姿态. NL 清除全部负面状态."
   },
   "alterego_mod:BreastValley": {
     "NAME": "傲人山峰",
@@ -306,7 +306,7 @@
   },
   "alterego_mod:VirginLaserPalladion": {
     "NAME": "帕拉迪昂之枪",
-    "DESCRIPTION": "造成 !M! 固定伤害 , 无视所有 阻碍 ."
+    "DESCRIPTION": "造成 !M! alterego_mod:固定伤害 , 无视所有 alterego_mod:阻碍 ."
   },
   "alterego_mod:InsideBaseball": {
     "NAME": "凶器碾压",
@@ -315,12 +315,12 @@
   },
   "alterego_mod:SideboobHour": {
     "NAME": "霸气侧漏",
-    "DESCRIPTION": "造成 固定伤害 ，数值为本局时长（分钟）."
+    "DESCRIPTION": "造成 alterego_mod:固定伤害 ，数值为本局时长（分钟）."
   },
   "alterego_mod:Weigh": {
     "NAME": "不可承受之重",
-    "DESCRIPTION": "造成 固定伤害 ，数值为胸部重量之和（公斤）.",
-    "UPGRADE_DESCRIPTION": "造成 固定伤害 ，数值为胸部重量之和（磅）."
+    "DESCRIPTION": "造成 alterego_mod:固定伤害 ，数值为胸部重量之和（公斤）.",
+    "UPGRADE_DESCRIPTION": "造成 alterego_mod:固定伤害 ，数值为胸部重量之和（磅）."
   },
   "alterego_mod:Santa": {
     "NAME": "圣诞狂欢",
@@ -347,21 +347,21 @@
   },
   "alterego_mod:SuperDuperMasochism": {
     "NAME": "受虐狂人",
-    "DESCRIPTION": "进入 雪山女神 姿态. NL 本回合每受到 !M! 点伤害，获得 1 力量."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神 姿态. NL 本回合每受到 !M! 点伤害，获得 1 力量."
   },
   "alterego_mod:Antipathy": {
     "NAME": "反感 厌恶 憎恨",
-    "DESCRIPTION": "进入 雪山女神. NL 获得 !M! 瞬时坚毅 ."
+    "DESCRIPTION": "进入 alterego_mod:雪山女神. NL 获得 !M! alterego_mod:瞬时坚毅 ."
   },
   "alterego_mod:STier": {
     "NAME": "英灵榜",
-    "DESCRIPTION": "将一张随机的 英灵榜 加入手牌. NL 消耗 .",
-    "UPGRADE_DESCRIPTION": "将两张随机的 英灵榜 加入手牌. NL 消耗  ."
+    "DESCRIPTION": "将一张随机的 alterego_mod:英灵榜 加入手牌. NL 消耗 .",
+    "UPGRADE_DESCRIPTION": "将两张随机的 alterego_mod:英灵榜 加入手牌. NL 消耗  ."
   },
   "alterego_mod:Exercise": {
     "NAME": "力之试炼",
-    "DESCRIPTION": "进入 战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成, 此卡再打出一次.",
-    "UPGRADE_DESCRIPTION": "进入 战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成或处于 战争女神 姿态, 此卡再打出一次."
+    "DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成, 此卡再打出一次.",
+    "UPGRADE_DESCRIPTION": "进入 alterego_mod:战争女神 姿态. NL 造成 5 点伤害. NL 如果你有正面力量加成或处于 alterego_mod:战争女神 姿态, 此卡再打出一次."
   },
   "alterego_mod:Undulate": {
     "NAME": "波动余震",
@@ -383,8 +383,8 @@
   },
   "alterego_mod:TrickOrTreatment": {
     "NAME": "任君选择",
-    "DESCRIPTION": "选择获得 !M! 层 再生 ，或者1层 毒液 .",
-    "UPGRADE_DESCRIPTION": "选择获得 !M! 层 再生 ，或者2层 毒液 ."
+    "DESCRIPTION": "选择获得 !M! 层 再生 ，或者1层 alterego_mod:毒液 .",
+    "UPGRADE_DESCRIPTION": "选择获得 !M! 层 再生 ，或者2层 alterego_mod:毒液 ."
   },
   "alterego_mod:Trick": {
     "NAME": "恶毒伎俩",
@@ -396,7 +396,7 @@
   },
   "alterego_mod:Cycle": {
     "NAME": "轮番掌控",
-    "DESCRIPTION": "改变 姿态 : NL 战争女神 变为 雪山女神. NL 雪山女神 变为 女武神. NL 女武神 变为 战争女神.",
-    "UPGRADE_DESCRIPTION": "改变 姿态 : NL 战争女神 变为 雪山女神. NL 雪山女神 变为 女武神. NL 女武神 变为 战争女神. NL 无 姿态 则进入 平静 ."
+    "DESCRIPTION": "改变 姿态 : NL alterego_mod:战争女神 变为 alterego_mod:雪山女神. NL alterego_mod:雪山女神 变为 alterego_mod:女武神. NL alterego_mod:女武神 变为 alterego_mod:战争女神.",
+    "UPGRADE_DESCRIPTION": "改变 姿态 : NL alterego_mod:战争女神 变为 alterego_mod:雪山女神. NL alterego_mod:雪山女神 变为 alterego_mod:女武神. NL alterego_mod:女武神 变为 alterego_mod:战争女神. NL 无 姿态 则进入 平静 ."
   }
 }
